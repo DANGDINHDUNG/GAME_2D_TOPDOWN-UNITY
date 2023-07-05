@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5848fd823f10942b2fa2c1a115e455, type: 3}
+  m_Name: Bone
+  m_EditorClassIdentifier: 
+  iD: 4
+  displayName: Bone
+  description: 
+  itemType: 1
+  Icon: {fileID: 21300000, guid: 295929ae65492e74c9613afc2e321179, type: 3}
+  MaxStackSize: 5
+  GoldValue: 500
+  SellValue: 3
+  attackPlus: 0
+  healthPlus: 0
+  defendPlus: 0
+  manaPlus: 0
+  spAttackPlus: 0
+  attackSpeedPlus: 0
+  healthRecovery: 0
+  manaRecovery: 0

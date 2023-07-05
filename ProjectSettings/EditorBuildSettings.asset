@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 93a4dd88619d9e24a9c27b965daee316
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Guild.unity
+    guid: 11388ed466de566449677f55be1dedc9
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 3be90073c8e1fd04cbe10698368b5f99
+  - enabled: 1
+    path: Assets/Scenes/PotionShop.unity
+    guid: d06571d7cfc11b1469a5ba7232936722
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon 1.unity
+    guid: 21cdc8d5871551f498acdb80b3c4fb2c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon 2.unity
+    guid: 6843ff2ad6d5efd4a8a5be9f6180680d
+  - enabled: 1
+    path: Assets/Scenes/Smithy.unity
+    guid: 4b2fa81a103145841b8b57f749ed7d4b
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon 3.unity
+    guid: 3fd82fad45d4e1c429fed47b605501a7
+  m_configObjects: {}

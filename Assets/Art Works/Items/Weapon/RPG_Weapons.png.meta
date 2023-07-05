@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: 48e2042be4631c840b4be2f28dc67914
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG_Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 552
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567e2fd9fde9fe45af877eb00eeee19
+      internalID: 1439882946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 546
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f58e352773fde43b5f1e700d93c28d
+      internalID: -1815969259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 544
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe48ce8f5f6e04590f3e6e70dacb44
+      internalID: 1914217073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 537
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c084594e79011b49a508d14eebd13c0
+      internalID: -1193633464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 567
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76edeea205cd94741ab15b8d791679ca
+      internalID: 1781588193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 569
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a494e6d19d41fb4898051cb6a3c1f04
+      internalID: -1887460062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 558
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3729f945a0b9c42a1a2893db7d459f
+      internalID: 907324554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 562
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83692114ab9f3364da2cc3bacb789192
+      internalID: 1686447959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 552
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5fdeb52ad890b48a5431f19855e82b
+      internalID: 74459934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 560
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adfcccfa9f76d945ae46e6cabd369df
+      internalID: -1406860809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 548
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969b680281da2154dbf7c15d3d25c995
+      internalID: -2099548009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 556
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbabb26ccaf7844dae102b8ae1b9283
+      internalID: -710835331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 435
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2188746162d0d24fadcac014d5601e5
+      internalID: 1306137775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 435
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e894129a08ef34bbd727aa7f3c487e
+      internalID: 1951010682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 429
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4699aec44e37b0844a3eea30da764131
+      internalID: 2051713577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 424
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e91bb38a2e01c438de2464d6eb585f
+      internalID: 1473001486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 436
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff5b2235e912114cbbc9b8d75dd220e
+      internalID: 337799963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 435
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6747d54d968b3e7479434fe638a9c264
+      internalID: -320870129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 434
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec1189c1e82be6488fdebd360659fe0
+      internalID: 1098660014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 429
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132b0688400c4dc48a7ed383a59c8439
+      internalID: 1462597619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 313
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcf0f98ea2497c4681ba90d14484f95
+      internalID: -351459034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 310
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0287a73ffaf5b441aee838167e51e5c
+      internalID: -583425640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 311
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f5e094a95588440af25f87fd0cebc8
+      internalID: -204104035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 306
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8013cef663b75b42a41447a298c5204
+      internalID: 1558572185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 307
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c0519ae8ab5eb4eaab488ce8431b2f
+      internalID: -93276081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 308
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86740bfddfb2c2148af1d60d0c527e2e
+      internalID: 1264711429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 306
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d8fb841167b3e4c868674e9c361a9f
+      internalID: 1088653389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 308
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d490a2ddbcbaf4aa24ea94dd38bdcb
+      internalID: -2139670107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 186
+        width: 17
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c5b6e33b6d5894784e43f2843f17d3
+      internalID: 49559456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 184
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8fd5512e665044b98a0cb40d1aa268
+      internalID: 1196901587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 181
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35b3a0535ea633459bc58ebe527ead2
+      internalID: 1898865717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 183
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b241a4196daf34589c94e8829eec4d
+      internalID: -729238334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 187
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c369b2f684597a940a2a54c45eefc5f0
+      internalID: -2101838047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 186
+        width: 17
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2042fd47c016c240bb424adeaf54bf7
+      internalID: -1593659206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 183
+        width: 20
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b96af3b28e13740b4d7f01d87d7af7
+      internalID: -711004594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 190
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7ecae5a06ee8d4196664ac0a3d6740
+      internalID: 41545370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_55
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 67
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee300d21c91ed749bc7dea4ceb0fbbd
+      internalID: 750061519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_56
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 64
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedbd97f264370548901584ee79a34d2
+      internalID: 550365487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_57
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 63
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b7f11bc3c181f48bb3f23d3bc47ce8
+      internalID: -773797775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Weapons_58
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 63
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f163ef894692ab74fae6839e2d3770cc
+      internalID: 1668653830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG_Weapons_1: -1815969259
+      RPG_Weapons_32: 1898865717
+      RPG_Weapons_28: 49559456
+      RPG_Weapons_39: -914800771
+      RPG_Weapons_40: -1664323997
+      RPG_Weapons_21: -583425640
+      RPG_Weapons_23: 1558572185
+      RPG_Weapons_43: 83961954
+      RPG_Weapons_20: -351459034
+      RPG_Weapons_44: 1557089635
+      RPG_Weapons_56: 550365487
+      RPG_Weapons_50: 309535649
+      RPG_Weapons_19: 1462597619
+      RPG_Weapons_37: -711004594
+      RPG_Weapons_11: -710835331
+      RPG_Weapons_30: 1196901587
+      RPG_Weapons_45: -366232998
+      RPG_Weapons_51: -783504780
+      RPG_Weapons_49: 729979
+      RPG_Weapons_60: 1137628612
+      RPG_Weapons_55: 750061519
+      RPG_Weapons_41: 1211999842
+      RPG_Weapons_9: -1406860809
+      RPG_Weapons_57: -773797775
+      RPG_Weapons_7: 1686447959
+      RPG_Weapons_58: 1668653830
+      RPG_Weapons_63: 1362329899
+      RPG_Weapons_48: -1458449887
+      RPG_Weapons_22: -204104035
+      RPG_Weapons_14: 2051713577
+      RPG_Weapons_70: 1182911281
+      RPG_Weapons_12: 1306137775
+      RPG_Weapons_35: -1593659206
+      RPG_Weapons_0: 1439882946
+      RPG_Weapons_27: -2139670107
+      RPG_Weapons_54: -534647252
+      RPG_Weapons_73: 1149587325
+      RPG_Weapons_2: 1914217073
+      RPG_Weapons_17: -320870129
+      RPG_Weapons_25: 1264711429
+      RPG_Weapons_64: 266131561
+      RPG_Weapons_68: -765162289
+      RPG_Weapons_62: 241362429
+      RPG_Weapons_61: 1794556567
+      RPG_Weapons_24: -93276081
+      RPG_Weapons_36: -1451261895
+      RPG_Weapons_18: 1098660014
+      RPG_Weapons_5: -1887460062
+      RPG_Weapons_46: -804585448
+      RPG_Weapons_47: 1217360675
+      RPG_Weapons_3: -1193633464
+      RPG_Weapons_16: 337799963
+      RPG_Weapons_59: 726645356
+      RPG_Weapons_33: -729238334
+      RPG_Weapons_15: 1473001486
+      RPG_Weapons_69: -777143721
+      RPG_Weapons_31: 1054419794
+      RPG_Weapons_53: -1433285669
+      RPG_Weapons_13: 1951010682
+      RPG_Weapons_29: -1688056473
+      RPG_Weapons_52: 2051293624
+      RPG_Weapons_34: -2101838047
+      RPG_Weapons_6: 907324554
+      RPG_Weapons_65: 1397196129
+      RPG_Weapons_74: 2075729659
+      RPG_Weapons_26: 1088653389
+      RPG_Weapons_42: -1370093037
+      RPG_Weapons_67: 277834689
+      RPG_Weapons_38: 41545370
+      RPG_Weapons_8: 74459934
+      RPG_Weapons_10: -2099548009
+      RPG_Weapons_66: -460058117
+      RPG_Weapons_71: 101447869
+      RPG_Weapons_72: -1479337846
+      RPG_Weapons_4: 1781588193
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

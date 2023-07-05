@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collider
+  - AttackLeft
+  - AttackRight
+  - AttackUp
+  - AttackDown
+  - SpawnSlimeZone
+  - ActiveSpawnZone
+  - HealthBar
+  - EnergyBar
+  - GUI
+  - Enemy
+  - ManaBar
+  - Guild
+  - QuestBoard
+  - Shop
+  - UIController
+  - Light
+  - Dialogue
+  - GameManager
+  - Slime
+  - Skeleton
+  - ToasterBot
+  - Menu
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Environment
+  - Water
+  - UI
+  - Mountain
+  - Enemy
+  - Player
+  - Interactable
+  - Obstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 3415946341
+    locked: 0
+  - name: Surface
+    uniqueID: 832490427
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Collision
+    uniqueID: 3776469569
+    locked: 0
+  - name: System
+    uniqueID: 2789782373
+    locked: 0
