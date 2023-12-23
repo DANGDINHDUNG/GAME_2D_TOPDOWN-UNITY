@@ -19,26 +19,12 @@ public class PlayerInformationManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI agility;
     [SerializeField] private TextMeshProUGUI spAttack;
     [SerializeField] private TextMeshProUGUI mana;
+    [SerializeField] private TextMeshProUGUI critRate;
+    [SerializeField] private TextMeshProUGUI critDamage;
 
     [Header("Player Level")]
     [SerializeField] private TextMeshProUGUI level;
     [SerializeField] private TextMeshProUGUI currentLevel;
-
-
-
-    [Header("Player script manager")]
-   public PlayerMovement playerMovement;
-   public PlayerCombat playerCombat;
-   public PlayerSkillSystem playerSkillSystem;
-   public PlayerStatus playerStatus;
-
-    void Awake()
-    {
-        playerMovement = GetComponent<PlayerMovement>();
-        playerSkillSystem = GetComponent<PlayerSkillSystem>();
-        playerStatus = GetComponent<PlayerStatus>();
-
-    }
 
     void Update()
     {
@@ -54,6 +40,8 @@ public class PlayerInformationManager : MonoBehaviour
         agility.text =  PlayerStatusController.GetInstance().playerMaxSpeed + "   +   (" + PlayerStatusController.GetInstance().agilityPlus + ")";
         defend.text =   PlayerStatusController.GetInstance().playerMaxDefend + "   +   (" + PlayerStatusController.GetInstance().defendPlus + ")";
         spAttack.text = PlayerStatusController.GetInstance().playerMaxSpAttack + "   +   (" + PlayerStatusController.GetInstance().spAttackPlus + ")";
+        critRate.text = PlayerStatusController.GetInstance().playerMaxCritRate + "   +   (" + (double)PlayerStatusController.GetInstance().critRatePlus + ")";
+        critDamage.text = PlayerStatusController.GetInstance().playerMaxCritDamage + "   +   (" + (double)PlayerStatusController.GetInstance().critDamagePlus + ")";
 
         level.text = PlayerStatusController.GetInstance().playerLevel.ToString();
         currentLevel.text = "Lvl: " + PlayerStatusController.GetInstance().playerCurrentLevelPoint + "/" + PlayerStatusController.GetInstance().playerMaxLevelPoint;

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5848fd823f10942b2fa2c1a115e455, type: 3}
+  m_Name: Diamond_ring
+  m_EditorClassIdentifier: 
+  iD: 14
+  displayName: 
+  description: 
+  itemType: 2
+  equipmentType: 7
+  Icon: {fileID: -2007766234, guid: c69c9c4c5e1353143bfd5a2aeceb0d53, type: 3}
+  MaxStackSize: 0
+  GoldValue: 0
+  SellValue: 0
+  attackPlus: 0
+  healthPlus: 0
+  defendPlus: 0
+  manaPlus: 10
+  spAttackPlus: 20
+  attackSpeedPlus: 0
+  critRatePlus: 0
+  critDamagePlus: 0
+  weaponSkill: {fileID: 1539852486789343667, guid: 094293ec99209514880d617f2b568ef7, type: 3}
+  healthRecovery: 0
+  manaRecovery: 0

@@ -56,7 +56,7 @@ public abstract class EquipmentDisplay : MonoBehaviour
 
         // Clicked slot doesn't have an item - Mouse does have an item - place the mouse item into the empty slot
 
-        if (clickedUISlot.AssignedInventorySlot.ItemData == null && mouseInventoryItem.AssignedInventorySlot.ItemData.itemType == ItemType.Weapon)
+        if (clickedUISlot.AssignedInventorySlot.ItemData == null && mouseInventoryItem.AssignedInventorySlot.ItemData.equipmentType == clickedUISlot.equipmentType)
         {
             clickedUISlot.AssignedInventorySlot.AssignItem(mouseInventoryItem.AssignedInventorySlot);
             clickedUISlot.UpdateUISlot();
@@ -66,7 +66,7 @@ public abstract class EquipmentDisplay : MonoBehaviour
         }
 
         // Both slots have an item - decide what to do . . .
-        if (clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData.itemType == ItemType.Weapon)
+        if (clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData.equipmentType == clickedUISlot.equipmentType)
         {
             SwapSlot(clickedUISlot);
             playerWeapon.AddWeaponBuff(clickedUISlot, mouseInventoryItem);

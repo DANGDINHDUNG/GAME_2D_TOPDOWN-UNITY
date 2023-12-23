@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5848fd823f10942b2fa2c1a115e455, type: 3}
+  m_Name: Body_knight
+  m_EditorClassIdentifier: 
+  iD: 11
+  displayName: Knight Armor
+  description: 
+  itemType: 2
+  equipmentType: 2
+  Icon: {fileID: -1310759609, guid: 7de9e0f16f1609345a3dce24818a3e41, type: 3}
+  MaxStackSize: 1
+  GoldValue: 25000
+  SellValue: 5000
+  attackPlus: 0
+  healthPlus: 200
+  defendPlus: 10
+  manaPlus: 0
+  spAttackPlus: 0
+  attackSpeedPlus: 0
+  critRatePlus: 0
+  critDamagePlus: 0
+  weaponSkill: {fileID: 0}
+  healthRecovery: 0
+  manaRecovery: 0

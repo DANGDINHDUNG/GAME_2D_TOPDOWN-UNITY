@@ -14,7 +14,7 @@ public class QuestDisplay : MonoBehaviour
     [Header("Ingredient Window")]
     [SerializeField] private IngredientSlot_UI _ingredientPrefabs;
     [SerializeField] private Transform _ingredientGrid;
-    [SerializeField] private Button _craftButton;
+    [SerializeField] private Button _completeButton;
     [SerializeField] private TextMeshProUGUI _playerGoldText;
 
     [Header("Item Display Section")]
@@ -28,8 +28,8 @@ public class QuestDisplay : MonoBehaviour
 
     private void Awake()
     {
-        _craftButton.onClick.AddListener(Crafting);
-        _craftButton.gameObject.SetActive(false);
+        _completeButton.onClick.AddListener(RecieveQuest);
+        _completeButton.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -37,7 +37,7 @@ public class QuestDisplay : MonoBehaviour
         _playerGoldText.text = _playerInventory.PrimaryInventorySystem.Gold.ToString();
     }
 
-    private void Crafting()
+    private void RecieveQuest()
     {
         _playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventoryHolder>();
 
@@ -46,7 +46,7 @@ public class QuestDisplay : MonoBehaviour
         {
             Debug.Log("Not null");
 
-            if (CheckIfCanCraft())
+            if (CheckIfCanComplete())
             {
                 foreach (var ingredient in _chosenQuest.Ingredients)
                 {
@@ -58,7 +58,7 @@ public class QuestDisplay : MonoBehaviour
         }
     }
 
-    private bool CheckIfCanCraft()
+    private bool CheckIfCanComplete()
     {
         Debug.Log("CanCraft");
 
@@ -117,13 +117,11 @@ public class QuestDisplay : MonoBehaviour
         _itemPreviewDescription.text = data.QuestDescription;
     }
 
-
-
     public void UpdateChosenQuest(QuestInformation _quest)
     {
         _chosenQuest = _quest;
         DisplayQuestPreview(_chosenQuest);
-        _craftButton.gameObject.SetActive(true);
+        _completeButton.gameObject.SetActive(true);
         RefreshQuestWindow();
     }
 
@@ -134,7 +132,7 @@ public class QuestDisplay : MonoBehaviour
         {
             var ingredientSlot = Instantiate(_ingredientPrefabs, _ingredientGrid.transform);
             ingredientSlot.Init(ingredient.ItemRequired, ingredient.AmountRequired);
-            if (CheckIfCanCraft())
+            if (CheckIfCanComplete())
             {
                 ingredientSlot.EnoughIngredient();
             }

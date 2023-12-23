@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5848fd823f10942b2fa2c1a115e455, type: 3}
+  m_Name: Amethys_ring
+  m_EditorClassIdentifier: 
+  iD: 8
+  displayName: Amethys Ring
+  description: The ring was made from Amethys
+  itemType: 2
+  equipmentType: 7
+  Icon: {fileID: 175359718, guid: c69c9c4c5e1353143bfd5a2aeceb0d53, type: 3}
+  MaxStackSize: 1
+  GoldValue: 1000
+  SellValue: 500
+  attackPlus: 50
+  healthPlus: 0
+  defendPlus: 0
+  manaPlus: 50
+  spAttackPlus: 30
+  attackSpeedPlus: 0
+  critRatePlus: 0
+  critDamagePlus: 0
+  weaponSkill: {fileID: 5284812269531118605, guid: ae40fac58fe11674393ebf14a0c82c69, type: 3}
+  healthRecovery: 0
+  manaRecovery: 0

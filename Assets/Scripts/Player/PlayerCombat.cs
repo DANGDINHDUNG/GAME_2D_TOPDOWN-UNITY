@@ -20,7 +20,7 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
 
     public float attackRange = 0.5f;
-
+    public bool isCriticalHit = false;
     public float attackState = -1f;
 
     [SerializeField]
@@ -105,22 +105,26 @@ public class PlayerCombat : MonoBehaviour
                 hitEnemies = Physics2D.OverlapCircleAll(attackRight.position, attackRange, enemyLayers);
             }
 
+            //Check critical
+            bool isCritical = IsCriticalHit((float)PlayerStatusController.GetInstance().playerCurrentCritRate);
+            var totalAttack = 0f;
+
+            if (isCritical)
+            {
+                totalAttack = PlayerStatusController.GetInstance().playerCurrentAttack * (1 + PlayerStatusController.GetInstance().playerCurrentCritDamage);
+            }
+            else
+            {
+                totalAttack = PlayerStatusController.GetInstance().playerCurrentAttack;
+            }
+
             // Damage them
             foreach (Collider2D enemy in hitEnemies)
             {
-                if (enemy.gameObject.tag == "Skeleton")
+                if (enemy.gameObject.tag == "Enemy")
                 {
-                    enemy.GetComponent<EnemyStatus>().TakeDamage(PlayerStatusController.GetInstance().playerCurrentAttack);
-                }
-                else if (enemy.gameObject.tag == "Slime")
-                {
-                    enemy.GetComponent<SlimeStatus>().TakeDamage(PlayerStatusController.GetInstance().playerCurrentAttack);
-                }
-                else if (enemy.gameObject.tag == "ToasterBot")
-                {
-                    enemy.GetComponent<RangeEnemyStatus>().TakeDamage(PlayerStatusController.GetInstance().playerCurrentAttack);
-                }
-
+                    enemy.GetComponent<HealthBase>().TakeDame(totalAttack, "physic", isCritical);
+                }               
             }
         }
     }
@@ -166,4 +170,12 @@ public class PlayerCombat : MonoBehaviour
         return result.Count > 0;
     }
 
+    public bool IsCriticalHit(float criticalRate)
+    {
+        // Generate a random number between 0 and 1
+        float randomValue = Random.Range(0f, 1.0f);
+
+        // Check if the random number is less than the critical rate to determine a critical hit
+        return randomValue < criticalRate;
+    }
 }

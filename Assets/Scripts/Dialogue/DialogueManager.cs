@@ -6,6 +6,7 @@ using TMPro;
 using Ink.Runtime;
 using UnityEngine.InputSystem;
 using UnityEngine.SearchService;
+using UnityEngine.Playables;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -28,9 +29,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
 
-    private Story currentStory;
+    [SerializeField] public Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
+
+    public bool triggerCutScene;
 
     private bool canContinueToNextLine = false;
 
@@ -42,20 +45,12 @@ public class DialogueManager : MonoBehaviour
     private const string PORTRAIT_TAG = "portrait";
 
     private DialogueVariables dialogueVariables;
+    private PlayableDirector cutscene;
 
     private void Awake()
     {
-        GameObject.DontDestroyOnLoad(this.gameObject);
-
-        if (instance != null) { Destroy(this.gameObject); }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            instance = this;
-            dialogueVariables = new DialogueVariables(loadGlobalsJSON);
-
-        }
-
+        instance = this;
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
     }
 
     public static DialogueManager GetInstance()
@@ -89,7 +84,14 @@ public class DialogueManager : MonoBehaviour
             currentStory.currentChoices.Count == 0 && 
             (Keyboard.current.spaceKey.wasPressedThisFrame || Mouse.current.leftButton.wasPressedThisFrame))
         {
-            ContinueStory();
+            if (!triggerCutScene)
+            {
+                ContinueStory();
+            }
+            else
+            {
+                ContinueStoryWithCutScene(cutscene);
+            }
         }
     }
 
@@ -107,6 +109,23 @@ public class DialogueManager : MonoBehaviour
         portraitAnimator.Play("default");
 
         ContinueStory();       
+    }
+
+    public void EnterDialogueModeWithCutScene(TextAsset inkJSON, PlayableDirector playableDirector)
+    {
+        currentStory = new Story(inkJSON.text);
+        cutscene = playableDirector;
+        dialogueIsPlaying= true;
+        inventory.SetActive(false);
+        dialoguePanel.SetActive(true);
+
+        dialogueVariables.StartListening(currentStory);
+
+        // reset portrait and speaker
+        displayName.text = "";
+        portraitAnimator.Play("default");
+
+        ContinueStoryWithCutScene(playableDirector);       
     }
 
     private IEnumerator ExitDialogueMode()
@@ -137,6 +156,28 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            StartCoroutine(ExitDialogueMode());
+        }
+    }
+
+    private void ContinueStoryWithCutScene(PlayableDirector playableDirector)
+    {
+
+        if (currentStory.canContinue)
+        {
+            // set text for the current dialogue line
+            if (displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
+
+            // handle tags
+            HandleTags(currentStory.currentTags);
+        }
+        else
+        {
+            playableDirector.Play();
             StartCoroutine(ExitDialogueMode());
         }
     }

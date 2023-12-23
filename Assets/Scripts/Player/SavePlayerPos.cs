@@ -9,8 +9,6 @@ public class SavePlayerPos : MonoBehaviour
     public HealthBar healthBar;
     public float pX, pY;
 
-    public bool inDoor = false;
-
     private void Awake()
     {
         healthBar = GameObject.Find("Health Bar").GetComponent<HealthBar>();

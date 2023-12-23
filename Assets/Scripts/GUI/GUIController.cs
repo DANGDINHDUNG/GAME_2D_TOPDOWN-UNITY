@@ -13,17 +13,9 @@ public class GUIController : MonoBehaviour
     public GameObject btnGameOver;
     private void Awake()
     {
-        GameObject.DontDestroyOnLoad(this.gameObject);
-
-        if (instance != null) { Destroy(this.gameObject); }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            GUIController.instance = this;
-            this.btnGameOver = GameObject.Find("btnGameOver");
-            this.btnGameOver.SetActive(false);
-            GUI.SetActive(false);
-        }
+        GUIController.instance = this;
+        this.btnGameOver = GameObject.Find("btnGameOver");
+        this.btnGameOver.SetActive(false);
     }
 
     // Update is called once per frame

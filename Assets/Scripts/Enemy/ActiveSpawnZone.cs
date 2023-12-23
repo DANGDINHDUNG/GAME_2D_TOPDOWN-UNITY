@@ -73,7 +73,6 @@ public class ActiveSpawnZone : MonoBehaviour
             {
                 for (int i = 0; i < numberOfEnemy; i++)
                 {
-                    Debug.Log("Spawn");
                     RandomizePosition();
                     enemyPrefabs[i] = Instantiate(enemyPrefab, position, spawnSlimePoint.rotation);
                     myGameObjects.Add(enemyPrefabs[i]);

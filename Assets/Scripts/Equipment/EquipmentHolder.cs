@@ -7,7 +7,7 @@ using System;
 public class EquipmentHolder : EquipmentDisplay
 {
     [SerializeField] private InventoryHolder inventoryHolder;
-    [SerializeField] protected EquipmentSlotUI slotPrefab;
+    [SerializeField] protected EquipmentSlotUI[] slots;
 
     protected override void Start()
     {
@@ -29,12 +29,11 @@ public class EquipmentHolder : EquipmentDisplay
     {
         slotDictionary = new Dictionary<EquipmentSlotUI, InventorySlots>();
 
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < 4; i++)
         {
-            var uiSlot = Instantiate(slotPrefab, transform);
-            slotDictionary.Add(uiSlot, invToDisplay.InventorySlots[i]);
-            uiSlot.Init(invToDisplay.InventorySlots[i]);
-            uiSlot.UpdateUISlot();
+            slotDictionary.Add(slots[i], invToDisplay.InventorySlots[i]);
+            slots[i].Init(inventorySystem.InventorySlots[i]);
+            slots[i].UpdateUISlot();
         }
     }
 }

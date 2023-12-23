@@ -5,45 +5,42 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(Rigidbody2D))]
-public class Skills : MonoBehaviour
+public class Skills : SkillCooldown
 {
-    private Vector3 mousePos, direction, rotation;
-    private Camera mainCam;
-    public SkillSO skillToCast;
 
     private Collider2D myCollider;
     private Rigidbody2D myRigidbody;
 
-    Transform player;
-
-    private void Awake()
+    protected override void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         myCollider = GetComponent<Collider2D>();
         myCollider.isTrigger = true;
 
         myRigidbody = GetComponent<Rigidbody2D>();
-        //myRigidbody.isKinematic = true;
+        base.Awake();
+    }
 
-        Destroy(this.gameObject, skillToCast.LifeTime);
-     }
-
-    private void Start()
+    protected override void Start()
     {
-        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        direction = mousePos - transform.position;
-        rotation = transform.position - mousePos;
+        base.Start();
         
     }
 
     private void Update()
     {
-        if (skillToCast.Speed >= 0)
+        if (skillToCast.skillType == SkillType.Range)
         {
-            myRigidbody.velocity = new Vector2(direction.x, direction.y).normalized * skillToCast.Speed;
-            float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, rot + 180);
+            if (skillToCast.Speed >= 0)
+            {
+                myRigidbody.velocity = new Vector2(direction.x, direction.y).normalized * skillToCast.Speed;
+                float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0, 0, rot + 180);
+            }
+        }
+        else if (skillToCast.skillType == SkillType.Melee)
+        {
+            Transform target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            transform.position = Vector2.MoveTowards(transform.position, target.position, 100 * Time.deltaTime);
         }
     }
 
@@ -53,21 +50,34 @@ public class Skills : MonoBehaviour
         // Apply hit particle effects
         // Apply sound effects
 
-        if (collision.gameObject.CompareTag("Skeleton"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.GetComponent<EnemyStatus>().TakeDamage(skillToCast.DamageAmount + PlayerStatusController.GetInstance().playerMaxSpAttack);
-            Destroy(this.gameObject);
-        }
-        else if (collision.gameObject.CompareTag("Slime"))
-        {
-            collision.GetComponent<SlimeStatus>().TakeDamage(skillToCast.DamageAmount + PlayerStatusController.GetInstance().playerMaxSpAttack);
-            Destroy(this.gameObject);
-        }
-        else if (collision.gameObject.CompareTag("ToasterBot"))
-        {
-            collision.GetComponent<RangeEnemyStatus>().TakeDamage(skillToCast.DamageAmount + PlayerStatusController.GetInstance().playerMaxSpAttack);
-            Destroy(this.gameObject);
-        }
+            bool isCritical = IsCriticalHit((float)PlayerStatusController.GetInstance().playerCurrentCritRate);
+            var totalAttack = 0f;
 
+            if (isCritical)
+            {
+                totalAttack = (PlayerStatusController.GetInstance().playerCurrentSpAttack * (1 + 20 / 100 + skillToCast.DamageAmount / 5)) * (1 + PlayerStatusController.GetInstance().playerCurrentCritDamage);
+            }
+            else
+            {
+                totalAttack = PlayerStatusController.GetInstance().playerCurrentSpAttack * (1 + 20 / 100 + skillToCast.DamageAmount / 5);
+            }
+
+            collision.GetComponent<HealthBase>().TakeDame(totalAttack, "magic", isCritical);
+            if (!skillToCast.DamageOfTime)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+    }
+
+    public bool IsCriticalHit(float criticalRate)
+    {
+        // Generate a random number between 0 and 1
+        float randomValue = Random.Range(0f, 1.0f);
+
+        // Check if the random number is less than the critical rate to determine a critical hit
+        return randomValue < criticalRate;
     }
 }

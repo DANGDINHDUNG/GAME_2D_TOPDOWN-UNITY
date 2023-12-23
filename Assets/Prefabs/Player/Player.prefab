@@ -4855,7 +4855,7 @@ GameObject:
   m_Layer: 8
   m_Name: InteractionPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4874,6 +4874,75 @@ Transform:
   m_Father: {fileID: 3954801562733602890}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &949819386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949819387}
+  - component: {fileID: 949819388}
+  m_Layer: 8
+  m_Name: Skill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &949819387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949819386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.024, y: 0.611, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3954801562733602890}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &949819388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949819386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f86d7ae3bd04847bc401cf302eea92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSkillToCast: {fileID: 1539852486789343667, guid: 094293ec99209514880d617f2b568ef7, type: 3}
+  skills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  imageSkills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  coverSkills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  selectionSkills:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  coolDownTimer:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mouseWorldPosition: {x: 0, y: 0, z: 0}
+  manaRechargeRate: 3
+  castPoint: {fileID: 2027559825}
+  manaBar: {fileID: 0}
 --- !u!1 &974596049
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +5017,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -518497727
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4993,6 +5062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 0}
+  playerSkillSystem: {fileID: 949819388}
   inventoryHolder: {fileID: 0}
   animator: {fileID: 0}
   weapon: {fileID: 0}
@@ -5267,7 +5337,6 @@ GameObject:
   - component: {fileID: 1808290679}
   - component: {fileID: 1808290688}
   - component: {fileID: 3954801562000112444}
-  - component: {fileID: 6637568785864015966}
   - component: {fileID: 3954801562000112455}
   - component: {fileID: 3954801562000112462}
   - component: {fileID: 2310280104218038406}
@@ -5296,6 +5365,7 @@ Transform:
   - {fileID: 64252862519581953}
   - {fileID: 418400055}
   - {fileID: 974596050}
+  - {fileID: 949819387}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5425,6 +5495,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackRange: 1
+  isCriticalHit: 0
   attackState: -1
   facingLeft: 0
   facingRight: 0
@@ -5515,37 +5586,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a18b87d28585e4f9d158015f7b4031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventorySize: 10
+  inventorySize: 50
   primaryInventorySystem:
-    inventorySlots: []
-    _gold: 0
-  equipmentInventorySystem:
     inventorySlots:
     - _itemID: 0
       stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
+    - _itemID: 0
+      stackSize: 0
     _gold: 0
-  _gold: 2000
-  secondaryInventorySize: 36
-  secondaryInventorySystem:
+  equipmentInventorySystem:
     inventorySlots: []
     _gold: 0
---- !u!114 &6637568785864015966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3954801562733602900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f86d7ae3bd04847bc401cf302eea92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillToCast: {fileID: 1539852486789343667, guid: 094293ec99209514880d617f2b568ef7, type: 3}
-  manaRechargeRate: 5
-  timeBetweenCasts: 1
-  castPoint: {fileID: 2027559825}
-  manaBar: {fileID: 0}
+  _gold: 10000
+  offset: 10
 --- !u!114 &3954801562000112455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5569,13 +5638,10 @@ MonoBehaviour:
   agility: {fileID: 0}
   spAttack: {fileID: 0}
   mana: {fileID: 0}
-  maxHP: 0
-  maxMana: 0
-  maxEnergy: 0
-  playerMovement: {fileID: 3954801562733602888}
-  playerCombat: {fileID: 0}
-  playerSkillSystem: {fileID: 6637568785864015966}
-  playerStatus: {fileID: 4964521972653648722}
+  critRate: {fileID: 0}
+  critDamage: {fileID: 0}
+  level: {fileID: 0}
+  currentLevel: {fileID: 0}
 --- !u!114 &3954801562000112462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5600,3 +5666,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf458e45b30b3d34593f12281089b7f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyData:
+    PlayerPosition: {x: 0, y: 0, z: 0}
+    MaxHealth: 0
+    MaxMana: 0
+    MaxEnergy: 0
+    CurrentHealth: 0
+    CurrentMana: 0
+    CurrentEnergy: 0
+    CurrentAttack: 0
+    CurrentDefend: 0
+    CurrentAgility: 0
+    CurrentSpAttack: 0
+    CurrentUP: 0
+    CurrentAttackPlus: 0
+    CurrentDefendPlus: 0
+    CurrentHealthPlus: 0
+    CurrentAgilityPlus: 0
+    CurrentSpAttackPlus: 0
+    CurrentManaPlus: 0
+    CurrentEnergyPlus: 0
+    CurrentAttackPoint: 0
+    CurrentDefendPoint: 0
+    CurrentHealthPoint: 0
+    CurrentAgilityPoint: 0
+    CurrentSpAttackPoint: 0
+    Level: 0
+    CurrentLevel: 0
+    MaxLevel: 0

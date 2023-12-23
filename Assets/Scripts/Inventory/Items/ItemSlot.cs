@@ -66,9 +66,9 @@ public abstract class ItemSlot : ISerializationCallbackReceiver
 
     public void OnBeforeSerialize()
     {
-        if (_itemID == -1) return;
+        //if (_itemID == -1) return;
 
-        var db = Resources.Load<Database>("Database");
-        itemData = db.GetItem(_itemID);
+        //var db = Resources.Load<Database>("Database");
+        //itemData = db.GetItem(_itemID);
     }
 }

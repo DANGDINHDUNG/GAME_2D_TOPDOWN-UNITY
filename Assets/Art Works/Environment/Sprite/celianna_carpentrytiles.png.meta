@@ -1,0 +1,2104 @@
+fileFormatVersion: 2
+guid: e83e63b355b723e489d47e9a15ec68b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 379
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7711a20da02021b4a97d2e22cf37664a
+      internalID: 1833323991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 383
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab967971a0b9d044f931175891da8d24
+      internalID: 204936514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 427
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16222c5b7c79214fbb1c847694588e2
+      internalID: 1495396152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 427
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aff4ab6e196aa440bd07e149e571270
+      internalID: -191448129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 427
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2968b3200131ff49b1f0a2ed9ca41ca
+      internalID: -529431749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 428
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f9bb902899cd348881820dffd4fc2c
+      internalID: -831885918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 428
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab76b6dd0c8741a4294863db78ebd0f3
+      internalID: 1761312831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 382
+        width: 24
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0921a66de11b96a4abe9bdec6567ce65
+      internalID: -1773118070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e42710b21cf547af118ad21d2651e
+      internalID: -272544883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 384
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e76e95bc2ff1e3458ad25444f84ae45
+      internalID: 868324822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 371
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bcd13fd3a922245819066749f9c577
+      internalID: 281385608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 378
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd4bd360b66964e9b75700bb73d8f3
+      internalID: 1170643757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 379
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc0b9ceb64d179488e32e4f45d56818
+      internalID: 1859296200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 267
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6addf6785b624c41beff67d02ab58d1
+      internalID: 1331348155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 332
+        width: 102
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4255288bc0ae40b3d67fc90eb8cc2
+      internalID: -1638654258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 326
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570c50a879ce964eaa1e585bffedd04
+      internalID: 8268030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 327
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e331b820d158ca0438eca52432127bb8
+      internalID: 1734472943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 340
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c94d5ef8de4908418d62fc38cc3e3b4
+      internalID: -1918083610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 323
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44336985ab7a4ee4db70e5a26c5fcfd7
+      internalID: -480336375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 323
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eecee5d0a637f4581fa54f66252528
+      internalID: -1867506304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 325
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b59320802cce145977012106dca0f6
+      internalID: 89064696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 318
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2628a37eaa22ed42bf1a8db8c2de53c
+      internalID: -2034003990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 318
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a17271edd96064aae6e5c0453ac4de
+      internalID: -1943278547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 330
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008c9fb70e413a2488d00446c66d3b76
+      internalID: -917495900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 279
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16059d4c2a41e1429aa79de66a017b7
+      internalID: 899390539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 279
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c25eb118300e784a9eb586d88affbc8
+      internalID: 1850544507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 279
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9286f81afae036647b66623b39b4b4b9
+      internalID: 1798486162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 279
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d67556ba205e3e4882e6588f920d3ea
+      internalID: -1711004573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 277
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9f6af394ff394eaf42410c02e76dc
+      internalID: -475208822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 274
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c0130727d50d94c878819dfadb58eb
+      internalID: -942603130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 274
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee2aaa0ea6507a4cb030ea8a67c5c84
+      internalID: 544788091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 273
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807741eff5b9a39439d4f1e3a2eb41d2
+      internalID: -1333566254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 273
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1d5d9bb2865c5478f1a59bdcf0ec75
+      internalID: 1377571674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 278
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7781ed17c684818468324a8556d90f61
+      internalID: -2030724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 281
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7fd922fb044c144a66f6cdef1f1d69
+      internalID: 985643119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_35
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 274
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1121f23ba8acbe8408bcb7d4280a5b73
+      internalID: -1737132819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 277
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c196600ba19ea49a75dabb861c7827
+      internalID: -1911373345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_37
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 276
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022c0ae2e5c95454a9807155e60c2563
+      internalID: 1254788130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_38
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 287
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176bc48d915f819428c4283bda73be33
+      internalID: 1106312179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_39
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 262
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db31f7bb2e8c7e840aa13abf1bf6ab9b
+      internalID: -801619422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_40
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 264
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9572f3d5037ce40bd6f0ac2587058a
+      internalID: 1705298779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 272
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1cf50b5ce08364eb199c75d3aff1d8
+      internalID: -1655576495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 210
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed375c433ea9d854b91d677aa8a6294f
+      internalID: 63029432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 228
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff1ad55af55ab4dbb9e0c3d4cf9446
+      internalID: -1823790076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 227
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848793a3b7e0cf947aee5ccb5cfad633
+      internalID: 103327381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 227
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d450402cf8414c88d545eeda53b71
+      internalID: 1341842245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 245
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa1f16bd3664df4c85478ed407de6db
+      internalID: -1412366046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 248
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daea7fd04fc6abe4085091711082026c
+      internalID: -829711548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 248
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6906da8bb9131845ab5aed7b1ae95d4
+      internalID: 966155325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 248
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6529ddca27acfca4dbc379c8ca8d47bd
+      internalID: -1583032927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 251
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514e0e323122004b9f27fc950b93ba3
+      internalID: -1426844990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_51
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d95bdcd8260fa42959921445996de0
+      internalID: -977813391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 230
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8a3ec715616e0439b506a37518ede3
+      internalID: -1267827477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_53
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 229
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01f791075eb184f93af10db3c63f2c
+      internalID: 2126528542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_54
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 236
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed5f794ad286ca4cb4e9d477cc9bb92
+      internalID: -1671928277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 224
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e37834ace8d6b5428fbf36d967e119c
+      internalID: -923266094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 185
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e04ab50d23b4245abc73aa4ff9507e
+      internalID: -1363537094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_58
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 207
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e189fcc7d809144921045ab359f5ae
+      internalID: -829550639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_59
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 199
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3074040c529e7ed4b887f31b4d6c1855
+      internalID: -335803511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 199
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf5ef4b073600489fc06f453ed028f
+      internalID: -813473842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 199
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de39f821695acd342a73e6e70a35ff4a
+      internalID: 398090717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_62
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 188
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e42e045bb79f84986d1dcbef2e6299
+      internalID: -77156832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 178
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55711b6540785bb4fbf896c5c2a9f2ae
+      internalID: -367944902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_64
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 177
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c28fab66153e1438617572132e27d8
+      internalID: 901595818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_65
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec4ae03ee5c6a43b4d0b976388ae06
+      internalID: 549698900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f552f21a0af0244eb01076cac304050
+      internalID: 65242043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 172
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d3b78659b5a44e98af2cac97a43b5
+      internalID: 1623743416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_68
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 172
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878a4c77a6afff04d98127a4c6db60d6
+      internalID: -1197872249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 145
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a05f91700ed27a4d95033e9f0a8bc2f
+      internalID: -2002316544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 154
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4336a959a29d534887122e31cd52fcf
+      internalID: -17810129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 154
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b3841126e3ee24b85529080ddfa9ae
+      internalID: 1985302611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 155
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc5fc03ccf911e4ba6e2a042d2b34d8
+      internalID: 1681220108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_73
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 155
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f6b7f88f6210644a9e1c9cf1e18bd9
+      internalID: 1906401676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 138
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cead55b69fbeda46aa8e4e0ddc19cfb
+      internalID: 1873792500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_75
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 144
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b965fd2e51fed1348942a74288c7a7c4
+      internalID: -803572198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_76
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c49473c54dadd499c8b5cb219ac8b6
+      internalID: 1027801921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_77
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 144
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e010ef1573c964fb6c5a2dc482c0d8
+      internalID: -136133470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_78
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 90
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2067b63a947b47740a78c0c128d09834
+      internalID: 1493796137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_79
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 112
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4836c6002b85a408e356e50c088a77
+      internalID: 1915079924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c9b38851486e488c9568be288a427
+      internalID: -1865320935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 59
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23c38e5fee2f24dbc4377e2d52946d
+      internalID: -1906056904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_82
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 71
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11fdbb59f102a47b1b181d1b1a0528
+      internalID: -2114282464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 27
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32285d3f80b44745b9ca94458ebb88b
+      internalID: -454319776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 27
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e351e03568340824d815dba13670491d
+      internalID: 2086913066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_85
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 33
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c999f4a13fb764c4da6d335fdcbf92c0
+      internalID: -1391373717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_86
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 102
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49a80a09b11554dbbb568128bde8e0
+      internalID: 2046094545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e6b77e53a5c594dac2a47b4928459c
+      internalID: -81758766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_88
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 30
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2970d4de8f9b0d74284c638e25863cf2
+      internalID: 1217624474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_carpentrytiles_56
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6082cf761b9ac4185ec19ff2ad323a
+      internalID: -439397380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      celianna_carpentrytiles_23: -917495900
+      celianna_carpentrytiles_60: -813473842
+      celianna_carpentrytiles_27: -1711004573
+      celianna_carpentrytiles_17: -1918083610
+      celianna_carpentrytiles_71: 1985302611
+      celianna_carpentrytiles_81: -1906056904
+      celianna_carpentrytiles_74: 1873792500
+      celianna_carpentrytiles_72: 1681220108
+      celianna_carpentrytiles_83: -454319776
+      celianna_carpentrytiles_30: 544788091
+      celianna_carpentrytiles_58: -829550639
+      celianna_carpentrytiles_43: -1823790076
+      celianna_carpentrytiles_25: 1850544507
+      celianna_carpentrytiles_70: -17810129
+      celianna_carpentrytiles_0: 1833323991
+      celianna_carpentrytiles_6: 1761312831
+      celianna_carpentrytiles_85: -1391373717
+      celianna_carpentrytiles_8: -272544883
+      celianna_carpentrytiles_45: 1341842245
+      celianna_carpentrytiles_51: -977813391
+      celianna_carpentrytiles_47: -829711548
+      celianna_carpentrytiles_33: -2030724
+      celianna_carpentrytiles_59: -335803511
+      celianna_carpentrytiles_40: 1705298779
+      celianna_carpentrytiles_2: 1495396152
+      celianna_carpentrytiles_13: 1331348155
+      celianna_carpentrytiles_4: -529431749
+      celianna_carpentrytiles_80: -1865320935
+      celianna_carpentrytiles_44: 103327381
+      celianna_carpentrytiles_3: -191448129
+      celianna_carpentrytiles_65: 549698900
+      celianna_carpentrytiles_39: -801619422
+      celianna_carpentrytiles_9: 868324822
+      celianna_carpentrytiles_82: -2114282464
+      celianna_carpentrytiles_14: -1638654258
+      celianna_carpentrytiles_38: 1106312179
+      celianna_carpentrytiles_42: 63029432
+      celianna_carpentrytiles_55: -923266094
+      celianna_carpentrytiles_50: -1426844990
+      celianna_carpentrytiles_10: 281385608
+      celianna_carpentrytiles_73: 1906401676
+      celianna_carpentrytiles_18: -480336375
+      celianna_carpentrytiles_19: -1867506304
+      celianna_carpentrytiles_78: 1493796137
+      celianna_carpentrytiles_54: -1671928277
+      celianna_carpentrytiles_56: -439397380
+      celianna_carpentrytiles_76: 1027801921
+      celianna_carpentrytiles_52: -1267827477
+      celianna_carpentrytiles_61: 398090717
+      celianna_carpentrytiles_41: -1655576495
+      celianna_carpentrytiles_29: -942603130
+      celianna_carpentrytiles_62: -77156832
+      celianna_carpentrytiles_26: 1798486162
+      celianna_carpentrytiles_7: -1773118070
+      celianna_carpentrytiles_63: -367944902
+      celianna_carpentrytiles_86: 2046094545
+      celianna_carpentrytiles_5: -831885918
+      celianna_carpentrytiles_57: -1363537094
+      celianna_carpentrytiles_48: 966155325
+      celianna_carpentrytiles_75: -803572198
+      celianna_carpentrytiles_34: 985643119
+      celianna_carpentrytiles_77: -136133470
+      celianna_carpentrytiles_46: -1412366046
+      celianna_carpentrytiles_21: -2034003990
+      celianna_carpentrytiles_79: 1915079924
+      celianna_carpentrytiles_32: 1377571674
+      celianna_carpentrytiles_11: 1170643757
+      celianna_carpentrytiles_69: -2002316544
+      celianna_carpentrytiles_1: 204936514
+      celianna_carpentrytiles_67: 1623743416
+      celianna_carpentrytiles_36: -1911373345
+      celianna_carpentrytiles_37: 1254788130
+      celianna_carpentrytiles_12: 1859296200
+      celianna_carpentrytiles_20: 89064696
+      celianna_carpentrytiles_24: 899390539
+      celianna_carpentrytiles_84: 2086913066
+      celianna_carpentrytiles_88: 1217624474
+      celianna_carpentrytiles_53: 2126528542
+      celianna_carpentrytiles_66: 65242043
+      celianna_carpentrytiles_15: 8268030
+      celianna_carpentrytiles_31: -1333566254
+      celianna_carpentrytiles_28: -475208822
+      celianna_carpentrytiles_16: 1734472943
+      celianna_carpentrytiles_35: -1737132819
+      celianna_carpentrytiles_87: -81758766
+      celianna_carpentrytiles_22: -1943278547
+      celianna_carpentrytiles_64: 901595818
+      celianna_carpentrytiles_68: -1197872249
+      celianna_carpentrytiles_49: -1583032927
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

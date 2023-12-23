@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class ClockManager : MonoBehaviour
 {
@@ -29,20 +31,47 @@ public class ClockManager : MonoBehaviour
     public float dayIntensity;
     public AnimationCurve dayNightCurve;
 
+    public float currentIntensity;
+
     private void Awake()
     {
         startingRotation = ClockFace.localEulerAngles.z;
-        sunLight = GameObject.FindGameObjectWithTag("Light").GetComponent<Light2D>();
+        currentIntensity = sunLight.intensity;
     }
 
     private void OnEnable()
     {
         TimeManager.OnDateTimeChanged += UpdateDateTime;
+        TimeManager.OnLoadedScene += OnLoadScene;
+        WeatherManager.OnWeatherChanged += UpdateWeather;
     }
 
     private void OnDisable()
     {
         TimeManager.OnDateTimeChanged -= UpdateDateTime;
+        TimeManager.OnLoadedScene -= OnLoadScene;
+        WeatherManager.OnWeatherChanged -= UpdateWeather;
+    }
+
+    private void UpdateWeather(Weather weather, Queue<Weather> weathers)
+    {
+        string currentWeather = weather.ToString();
+        if (currentWeather == "Sunny")
+        {
+            weatherSprite.sprite = weatherSprites[0];
+        }
+        else if (currentWeather == "Rainy")
+        {
+            weatherSprite.sprite = weatherSprites[1];
+        }
+        else if (currentWeather == "Snowy")
+        {
+            weatherSprite.sprite = weatherSprites[2];
+        }
+        else if (currentWeather == "Windy")
+        {
+            weatherSprite.sprite = weatherSprites[3];
+        }
     }
 
     private void UpdateDateTime(DateTime dateTime)
@@ -80,6 +109,24 @@ public class ClockManager : MonoBehaviour
 
         float dayNightT = dayNightCurve.Evaluate(t);
 
-        sunLight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, dayNightT);
+
+        if (SceneManager.GetActiveScene().name == "SampleScene")
+        {
+            sunLight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, dayNightT);
+            currentIntensity = sunLight.intensity;
+        }
+    }
+
+
+    private void OnLoadScene(DateTime dateTime)
+    {
+        if (SceneManager.GetActiveScene().name == "SampleScene")
+        {
+            sunLight.intensity = currentIntensity;
+        }
+        else
+        {
+            sunLight.intensity = 1;
+        }
     }
 }

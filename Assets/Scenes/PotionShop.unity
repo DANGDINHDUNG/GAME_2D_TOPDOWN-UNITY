@@ -49164,7 +49164,7 @@ GameObject:
   - component: {fileID: 1041512495}
   - component: {fileID: 1041512494}
   m_Layer: 9
-  m_Name: Lianna
+  m_Name: Lucia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49211,7 +49211,7 @@ SpriteRenderer:
   m_SortingLayerID: -518497727
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1212237711, guid: aae0a87137d68a442997bbb5beed9990, type: 3}
+  m_Sprite: {fileID: 2146677272, guid: 60e2bc5514286ac4c936d6cebe4b4484, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -49254,7 +49254,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.1666666, y: 2.6666667}
+    oldSize: {x: 1.25, y: 2.6666667}
     newSize: {x: 1.1666666, y: 2.6666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -54086,7 +54086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1618554833
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class EquipmentSlotUI : MonoBehaviour
     [SerializeField] private InventorySlots assignedInventorySlot;
 
     private Button button;
-
+    [SerializeField] public EquipmentType equipmentType;
     public InventorySlots AssignedInventorySlot => assignedInventorySlot;
     public EquipmentDisplay ParentDisplay { get; private set; }
 
@@ -34,6 +34,7 @@ public class EquipmentSlotUI : MonoBehaviour
         {
             itemSprite.sprite = slot.ItemData.Icon;
             itemSprite.color = Color.white;
+            itemSprite.preserveAspect = true;
         }
         else
         {

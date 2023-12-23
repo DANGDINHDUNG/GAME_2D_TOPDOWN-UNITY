@@ -1,0 +1,3050 @@
+fileFormatVersion: 2
+guid: 60e2bc5514286ac4c936d6cebe4b4484
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 174
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e73a8f199919444a2c5e32699aa731
+      internalID: 2146677272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 174
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df637d99d64a5ca43a1ac437e2a8d93f
+      internalID: -1195281419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 174
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b320e770715549aa8c58f842ae8ff
+      internalID: 1130888459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 174
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca34d32c3f8957546b54aefbcf94085e
+      internalID: 966303181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 181
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36a9c07a83f98a4187b2bc039b24d63
+      internalID: 1107989539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e663393486c1a48a8b89970c6d4657
+      internalID: 1531533775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f43f7be30dfc549b25515b11cd0538
+      internalID: -283553395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93c7abeb0f42124e973c854c55caa1d
+      internalID: 148664754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 181
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56df33fb4e7497d46a368e9516f26d05
+      internalID: -1953296486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51e6fdcb31c2a243a6c45a69adb7ccc
+      internalID: -1129556702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f1ebf31fb142e42a9ecb47ef7b9979
+      internalID: -621870411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 181
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f0d936d42333749ac7233d6a3dc6f5
+      internalID: -209300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 176
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3fbde27b31fd9409f81e550ec093f8
+      internalID: -592561573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 178
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50c6e074eaaf4c4b89cbb8ce7dce0f0
+      internalID: -449554444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 178
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e208e88531df074b81c770bed733339
+      internalID: 1102151028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 179
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0d22c03744e44fae4c19742781168
+      internalID: -836213859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 179
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38adf82532b96c4398f115d349a3053
+      internalID: 454481213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_17
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 179
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef1ea63dbd1f143b497af97c50d63a
+      internalID: -2083849855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 178
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be6a3ea4570684ab02cbd51b8e7131
+      internalID: -814553832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 176
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fcf72ae91dd334ba8604fc8283ba9e
+      internalID: -375333197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 176
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff8ee1177c0104bab67139f3c413f0
+      internalID: -1730321798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_21
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 178
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf73d371ed4152488e5f693baef1b15
+      internalID: 1409302007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 178
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8065eeb861651a94e82dc2fbae7edddf
+      internalID: -194476254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8065b8476f3b654d909a2ff66fc9739
+      internalID: 1955556198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 145
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb0a659db52c03448cb9ab0012580d1
+      internalID: 1684842635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 145
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4359b187d2ee9f847aed2134a7783d37
+      internalID: -1253376560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 144
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27a21343c000cd4da7e3b7b46869eb7
+      internalID: -42026873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 142
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4569e00f5aa7a9d49adf8cecb81dda38
+      internalID: -789368321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 141
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e530aa4ac9767fd4bbebbcb377922e6d
+      internalID: -1740687646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 142
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bfed72746456d419f6852285eb1477
+      internalID: 1463801323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b0513e07abf2e4e9c215b22e11e05f
+      internalID: -1364145630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93018159d3ee11d4f84637446ac5d10c
+      internalID: 2087032237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 141
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6453d4fd9fc27b43a263bb17ab3537f
+      internalID: 1785114332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_33
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 142
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50db77152a3b65e4ca2b65a099a374d1
+      internalID: 1181730358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe8fc3b5bce16c4c8c4b0ad6ca8054a
+      internalID: -949773520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_35
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 141
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c209335383bc73a4886aeb046560ecb3
+      internalID: 1738313946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 140
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50619f1ed9c13a04ebbb27e934c937eb
+      internalID: -1190764631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 141
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b09cb0885cb24bbdc699545cf4ed5
+      internalID: -1200636232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_38
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 142
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f2873161bac448b4e0a573f3813fe
+      internalID: 1484469444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_39
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129426febc67d4d49a6592aea5dff216
+      internalID: -370644095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78129ed910fece4c94d6fb62aa23c15
+      internalID: 1065746635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_41
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 142
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec682cac4cfd8394c9aed65d53227c43
+      internalID: -28045653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_42
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 141
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a87a841c1344384bbe57a8021207074
+      internalID: 2065162201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_43
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 140
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d11ba2b532aa67468784f3aaeb6d7c9
+      internalID: -201808890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_44
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 141
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed592abfabaf648a6c0cc050c19db1
+      internalID: 1515220673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_45
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 142
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18715252df79e654ab714c330e00e0c5
+      internalID: 625011170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_46
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a09f4f43947c70449b2da0bd7bf51e7
+      internalID: -93895305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_47
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 142
+        width: 20
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358a2ded0ea8de448aec9d1948723848
+      internalID: -1958127005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efb360c9ac9c4b43b682df0eadb977a
+      internalID: -1955956387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 107
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a27007ffc46046867f05571ea816c
+      internalID: -1168482992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 106
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d22b9e31798ea84e933ea437a7f3852
+      internalID: -1484318187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_51
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 106
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57acb6afd0759334fb9f530f083cde0b
+      internalID: -1092223401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_52
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 107
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d88a77687d9ce4f9068bbb5ef954e8
+      internalID: 1513848501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_53
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 107
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eaa295e69714c479d06295901fcc41
+      internalID: -1234418404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_54
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 107
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69a36290e7891428f92abe52ce48f6
+      internalID: -1783304295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_55
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 107
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86da58eea8b702439e19f74c24dd8ce
+      internalID: -959818614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_56
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 107
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466ec96f7ed99d844add614fdccb9917
+      internalID: 1403528090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 107
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e347f0f7114313499d979e615b23c26
+      internalID: 530052016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_58
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 106
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3dcfcf055f5a8489c479377580628e
+      internalID: 1213684803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_59
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 106
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe28de60e056fc41973399036b87f6f
+      internalID: -1409167227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 106
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5526766daac464789c12ea09640caf
+      internalID: -1950244526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_61
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 106
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece12553833792c44a1aca595cead5a1
+      internalID: 1527743727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_62
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 106
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0b5597f5d5d0946855b29052400e75
+      internalID: 628143737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_63
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 106
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf3e224fedda0488b5701c3ec05563
+      internalID: 2146825305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_64
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 106
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d54218c9ebe48428d31b5b7c638053
+      internalID: 839401813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_65
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 106
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea69fb998babd714b87539da3c43e92f
+      internalID: 482674746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_66
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 106
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7476412593fee64695ad2d06b847f8e
+      internalID: 2101177281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_67
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 106
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b66478259dbb4f9caacdce7ef7c92
+      internalID: -850539293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_68
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 106
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1079d9a1ba7f6c14f8d3a6946500cb2a
+      internalID: 110373435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_69
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 106
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aa748fe34900d45a99d421c80e2a58
+      internalID: 1538068122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_70
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 107
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a9271364d7f5748842160272bcefb7
+      internalID: -1034016622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_71
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 107
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c61aae20a5931a44a8ef9857fc34a30
+      internalID: 188005419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e4e87ee4407c1418bede37d545943f
+      internalID: -1130737056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_73
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 73
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210090ca6879b4045ae833a17cdddcc0
+      internalID: 1218012226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_74
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 72
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac574d7b91c0ce4c8bcab2d3e0c94b9
+      internalID: 848369602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_75
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 72
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941649214e4066d468b1d1c17abbeef0
+      internalID: -1208163592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_76
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 72
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7afd70b9229714aad2f92e662cb34c
+      internalID: -920452435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_77
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 72
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b79da56b0753243aff5fbb80e3468f
+      internalID: -1575020852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_78
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 72
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766875bb6c73f8445b205a3b4b6f4ae8
+      internalID: 288076488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 72
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6019547b3a7870b49ae64766d9b3b690
+      internalID: -864419779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 89
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7205abc6f00c4c47a01feae08fc3bf2
+      internalID: -416855830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_81
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 89
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db685639adf852241973fe53b9d6a8da
+      internalID: 47221733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_82
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 72
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440a3bd9c048ed42bcb9fdaf20f2548
+      internalID: -267837382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_83
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 72
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2215e6120820944aa54facd9165626
+      internalID: 474760935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_84
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 74
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304cb0cfaac8a8b4e9d6df3357320b5d
+      internalID: -189132866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_85
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 72
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daed27040f92cac48a0f07b5e8eebf8b
+      internalID: -227823897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 71
+        width: 18
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035289391cb5ac94b851ea68484cee25
+      internalID: -403395334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_87
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 74
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d378674af811c4082eb4c62078485a
+      internalID: -894068835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_88
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 72
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce0776d8e1a7804b8597b8c223846dd
+      internalID: -1144104434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_89
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 71
+        width: 18
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1782d8c1d5897e248897d934024ff5c5
+      internalID: -1887067288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_90
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 74
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b644b6f0662ad43b4f3ff8db8385e3
+      internalID: 960553361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_91
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 73
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e03fd81ff250428ce3839337cf638
+      internalID: -1198181899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_92
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 72
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d6a81d939fc94db35a171e15088b8
+      internalID: 309442436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_93
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 74
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a04f156f72e14a4b9ed580317ae135d
+      internalID: 1218357973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_94
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 73
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78e232c4feab8b458d80039deae4095
+      internalID: 593507377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8edc54904629d14abe4c1946fd7b977
+      internalID: 2017871592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_96
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 38
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9e05a8a84981d4bbf22ce585708d88
+      internalID: 870907585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_97
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 37
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bac1fa0ea52c0428bdd5c4882ae4d7
+      internalID: 1844710604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_98
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9219998be93a323449bfb99eec6cbcaa
+      internalID: -80157295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_99
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 39
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2b6ee94ff7c84f9e72ce9c0ee4206
+      internalID: -1282157301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_100
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 38
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4958fda72d9a23f419863b7375ab5717
+      internalID: -757179564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_101
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c203651d6bb7c4da4cb8ec3d46b1a4
+      internalID: -1382168807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 38
+        width: 23
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ee9185e97e9384eafca115d3b7bffd
+      internalID: 709478032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_103
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 37
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc596425a1a865409e7db9d672e977b
+      internalID: 1695293442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_104
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 36
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76340e74581e42d48a2954cd0c3a9786
+      internalID: 639890166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_105
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf69b19e4088864bb7dda0827b40319
+      internalID: -1883706411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_106
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 38
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc438c3c390f9042a89f39bfc1e436c
+      internalID: 789986506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_107
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca2d037721fbcb438d69cf536645207
+      internalID: -1725967474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_108
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 37
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6611fd282e322943bf6955e6225b3ba
+      internalID: 1265035822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_109
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57eb117340a5dc458b8b88bbdce9dba
+      internalID: 5176419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_110
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3709494d1d88804c9586acaca488796
+      internalID: 1105736046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_111
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 37
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91081730b750f4a88ce34586264f62
+      internalID: -1744579067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_112
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3315ec3d6fcfe21408531847cd8e5fb8
+      internalID: 1537509077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_113
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c3441a5a691dd4080a2ce75f6e83c9
+      internalID: -932033147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_114
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 37
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d315452f2b9a6542a4eec783ac8adfd
+      internalID: 705777533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_115
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b1fba645374441adb9a47b348f0c8
+      internalID: -1976224106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_116
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8445b114957f24da40b0c12523483c
+      internalID: 652134601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_117
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 37
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3ad55b1ae133c4daf6bad004b9c925
+      internalID: -2080307772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_118
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 37
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89292285aec20de46a7d58d8caeea42e
+      internalID: -1579983184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_119
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde5671063282054ea06552a25bd9c81
+      internalID: 1156069805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_120
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc4b88c463d9541bf16cb04490f1e6
+      internalID: -733888513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_121
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c81bbe17a29d7b46b47d76070d09e41
+      internalID: 1867634425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_122
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816f20b523a89374ebb47f887b97f724
+      internalID: 1133672891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_123
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def61ad5ef91ca5409450994f7a3cf96
+      internalID: 232233632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_124
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf8f8c0f0b8ec4d9c4e2a5320ddfe9
+      internalID: 1762132641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_125
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633c58312692b724f89216ce9294cc83
+      internalID: 1045026030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499274a3e7c55774c9f587f52f571bcc
+      internalID: 681109668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_127
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3e53b95694bf54893475433ab582a2
+      internalID: 744271110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_128
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d882c3d6938eb4048a07eb99b7a0cd31
+      internalID: 666818531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_129
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89eb271272ef8148ac824f0436a5de1
+      internalID: -1060191214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_130
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e682921e60ddff04bb1d178e2ce35e6e
+      internalID: 333815213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lucia_131
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d593e7e28064ca1469e4976cb072668f
+      internalID: 46089956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nintendo Switch - Octopath Traveler - Lucia_77: -1575020852
+      Nintendo Switch - Octopath Traveler - Lucia_59: -1409167227
+      Nintendo Switch - Octopath Traveler - Lucia_106: 789986506
+      Nintendo Switch - Octopath Traveler - Lucia_55: -959818614
+      Nintendo Switch - Octopath Traveler - Lucia_69: 1538068122
+      Nintendo Switch - Octopath Traveler - Lucia_107: -1725967474
+      Nintendo Switch - Octopath Traveler - Lucia_125: 1045026030
+      Nintendo Switch - Octopath Traveler - Lucia_60: -1950244526
+      Nintendo Switch - Octopath Traveler - Lucia_75: -1208163592
+      Nintendo Switch - Octopath Traveler - Lucia_45: 625011170
+      Nintendo Switch - Octopath Traveler - Lucia_46: -93895305
+      Nintendo Switch - Octopath Traveler - Lucia_83: 474760935
+      Nintendo Switch - Octopath Traveler - Lucia_92: 309442436
+      Nintendo Switch - Octopath Traveler - Lucia_15: -836213859
+      Nintendo Switch - Octopath Traveler - Lucia_112: 1537509077
+      Nintendo Switch - Octopath Traveler - Lucia_123: 232233632
+      Nintendo Switch - Octopath Traveler - Lucia_74: 848369602
+      Nintendo Switch - Octopath Traveler - Lucia_105: -1883706411
+      Nintendo Switch - Octopath Traveler - Lucia_4: 1107989539
+      Nintendo Switch - Octopath Traveler - Lucia_122: 1133672891
+      Nintendo Switch - Octopath Traveler - Lucia_67: -850539293
+      Nintendo Switch - Octopath Traveler - Lucia_64: 839401813
+      Nintendo Switch - Octopath Traveler - Lucia_119: 1156069805
+      Nintendo Switch - Octopath Traveler - Lucia_97: 1844710604
+      Nintendo Switch - Octopath Traveler - Lucia_66: 2101177281
+      Nintendo Switch - Octopath Traveler - Lucia_31: 2087032237
+      Nintendo Switch - Octopath Traveler - Lucia_68: 110373435
+      Nintendo Switch - Octopath Traveler - Lucia_99: -1282157301
+      Nintendo Switch - Octopath Traveler - Lucia_61: 1527743727
+      Nintendo Switch - Octopath Traveler - Lucia_130: 333815213
+      Nintendo Switch - Octopath Traveler - Lucia_18: -814553832
+      Nintendo Switch - Octopath Traveler - Lucia_53: -1234418404
+      Nintendo Switch - Octopath Traveler - Lucia_108: 1265035822
+      Nintendo Switch - Octopath Traveler - Lucia_109: 5176419
+      Nintendo Switch - Octopath Traveler - Lucia_13: -449554444
+      Nintendo Switch - Octopath Traveler - Lucia_44: 1515220673
+      Nintendo Switch - Octopath Traveler - Lucia_73: 1218012226
+      Nintendo Switch - Octopath Traveler - Lucia_94: 593507377
+      Nintendo Switch - Octopath Traveler - Lucia_87: -894068835
+      Nintendo Switch - Octopath Traveler - Lucia_57: 530052016
+      Nintendo Switch - Octopath Traveler - Lucia_26: -42026873
+      Nintendo Switch - Octopath Traveler - Lucia_118: -1579983184
+      Nintendo Switch - Octopath Traveler - Lucia_50: -1484318187
+      Nintendo Switch - Octopath Traveler - Lucia_88: -1144104434
+      Nintendo Switch - Octopath Traveler - Lucia_62: 628143737
+      Nintendo Switch - Octopath Traveler - Lucia_34: -949773520
+      Nintendo Switch - Octopath Traveler - Lucia_1: -1195281419
+      Nintendo Switch - Octopath Traveler - Lucia_32: 1785114332
+      Nintendo Switch - Octopath Traveler - Lucia_41: -28045653
+      Nintendo Switch - Octopath Traveler - Lucia_19: -375333197
+      Nintendo Switch - Octopath Traveler - Lucia_63: 2146825305
+      Nintendo Switch - Octopath Traveler - Lucia_24: 1684842635
+      Nintendo Switch - Octopath Traveler - Lucia_30: -1364145630
+      Nintendo Switch - Octopath Traveler - Lucia_40: 1065746635
+      Nintendo Switch - Octopath Traveler - Lucia_76: -920452435
+      Nintendo Switch - Octopath Traveler - Lucia_102: 709478032
+      Nintendo Switch - Octopath Traveler - Lucia_3: 966303181
+      Nintendo Switch - Octopath Traveler - Lucia_116: 652134601
+      Nintendo Switch - Octopath Traveler - Lucia_120: -733888513
+      Nintendo Switch - Octopath Traveler - Lucia_6: -283553395
+      Nintendo Switch - Octopath Traveler - Lucia_115: -1976224106
+      Nintendo Switch - Octopath Traveler - Lucia_7: 148664754
+      Nintendo Switch - Octopath Traveler - Lucia_96: 870907585
+      Nintendo Switch - Octopath Traveler - Lucia_70: -1034016622
+      Nintendo Switch - Octopath Traveler - Lucia_12: -592561573
+      Nintendo Switch - Octopath Traveler - Lucia_52: 1513848501
+      Nintendo Switch - Octopath Traveler - Lucia_8: -1953296486
+      Nintendo Switch - Octopath Traveler - Lucia_16: 454481213
+      Nintendo Switch - Octopath Traveler - Lucia_100: -757179564
+      Nintendo Switch - Octopath Traveler - Lucia_131: 46089956
+      Nintendo Switch - Octopath Traveler - Lucia_91: -1198181899
+      Nintendo Switch - Octopath Traveler - Lucia_5: 1531533775
+      Nintendo Switch - Octopath Traveler - Lucia_90: 960553361
+      Nintendo Switch - Octopath Traveler - Lucia_54: -1783304295
+      Nintendo Switch - Octopath Traveler - Lucia_127: 744271110
+      Nintendo Switch - Octopath Traveler - Lucia_58: 1213684803
+      Nintendo Switch - Octopath Traveler - Lucia_22: -194476254
+      Nintendo Switch - Octopath Traveler - Lucia_28: -1740687646
+      Nintendo Switch - Octopath Traveler - Lucia_124: 1762132641
+      Nintendo Switch - Octopath Traveler - Lucia_11: -209300336
+      Nintendo Switch - Octopath Traveler - Lucia_71: 188005419
+      Nintendo Switch - Octopath Traveler - Lucia_23: 1955556198
+      Nintendo Switch - Octopath Traveler - Lucia_49: -1168482992
+      Nintendo Switch - Octopath Traveler - Lucia_81: 47221733
+      Nintendo Switch - Octopath Traveler - Lucia_21: 1409302007
+      Nintendo Switch - Octopath Traveler - Lucia_79: -864419779
+      Nintendo Switch - Octopath Traveler - Lucia_14: 1102151028
+      Nintendo Switch - Octopath Traveler - Lucia_126: 681109668
+      Nintendo Switch - Octopath Traveler - Lucia_86: -403395334
+      Nintendo Switch - Octopath Traveler - Lucia_9: -1129556702
+      Nintendo Switch - Octopath Traveler - Lucia_113: -932033147
+      Nintendo Switch - Octopath Traveler - Lucia_10: -621870411
+      Nintendo Switch - Octopath Traveler - Lucia_25: -1253376560
+      Nintendo Switch - Octopath Traveler - Lucia_103: 1695293442
+      Nintendo Switch - Octopath Traveler - Lucia_110: 1105736046
+      Nintendo Switch - Octopath Traveler - Lucia_95: 2017871592
+      Nintendo Switch - Octopath Traveler - Lucia_111: -1744579067
+      Nintendo Switch - Octopath Traveler - Lucia_29: 1463801323
+      Nintendo Switch - Octopath Traveler - Lucia_65: 482674746
+      Nintendo Switch - Octopath Traveler - Lucia_20: -1730321798
+      Nintendo Switch - Octopath Traveler - Lucia_51: -1092223401
+      Nintendo Switch - Octopath Traveler - Lucia_42: 2065162201
+      Nintendo Switch - Octopath Traveler - Lucia_17: -2083849855
+      Nintendo Switch - Octopath Traveler - Lucia_39: -370644095
+      Nintendo Switch - Octopath Traveler - Lucia_33: 1181730358
+      Nintendo Switch - Octopath Traveler - Lucia_35: 1738313946
+      Nintendo Switch - Octopath Traveler - Lucia_85: -227823897
+      Nintendo Switch - Octopath Traveler - Lucia_37: -1200636232
+      Nintendo Switch - Octopath Traveler - Lucia_114: 705777533
+      Nintendo Switch - Octopath Traveler - Lucia_93: 1218357973
+      Nintendo Switch - Octopath Traveler - Lucia_47: -1958127005
+      Nintendo Switch - Octopath Traveler - Lucia_82: -267837382
+      Nintendo Switch - Octopath Traveler - Lucia_2: 1130888459
+      Nintendo Switch - Octopath Traveler - Lucia_78: 288076488
+      Nintendo Switch - Octopath Traveler - Lucia_0: 2146677272
+      Nintendo Switch - Octopath Traveler - Lucia_36: -1190764631
+      Nintendo Switch - Octopath Traveler - Lucia_84: -189132866
+      Nintendo Switch - Octopath Traveler - Lucia_121: 1867634425
+      Nintendo Switch - Octopath Traveler - Lucia_101: -1382168807
+      Nintendo Switch - Octopath Traveler - Lucia_80: -416855830
+      Nintendo Switch - Octopath Traveler - Lucia_27: -789368321
+      Nintendo Switch - Octopath Traveler - Lucia_38: 1484469444
+      Nintendo Switch - Octopath Traveler - Lucia_129: -1060191214
+      Nintendo Switch - Octopath Traveler - Lucia_98: -80157295
+      Nintendo Switch - Octopath Traveler - Lucia_56: 1403528090
+      Nintendo Switch - Octopath Traveler - Lucia_104: 639890166
+      Nintendo Switch - Octopath Traveler - Lucia_117: -2080307772
+      Nintendo Switch - Octopath Traveler - Lucia_128: 666818531
+      Nintendo Switch - Octopath Traveler - Lucia_43: -201808890
+      Nintendo Switch - Octopath Traveler - Lucia_72: -1130737056
+      Nintendo Switch - Octopath Traveler - Lucia_48: -1955956387
+      Nintendo Switch - Octopath Traveler - Lucia_89: -1887067288
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -17,8 +18,9 @@ public class TimeManager : MonoBehaviour
     public int hour;
     [Range(0, 6)]
     public int minute;
+    public DateTime DateTime;
 
-    private DateTime DateTime;
+    public static TimeManager timeInstance;
 
     [Header("Tick Settings")]
     public int TickMinutesIncrease = 10;
@@ -26,10 +28,18 @@ public class TimeManager : MonoBehaviour
     private float currentTimeBetweenTicks = 0;
 
     public static UnityAction<DateTime> OnDateTimeChanged;
+    public static UnityAction<DateTime> OnLoadedScene;
 
     private void Awake()
     {
-        DateTime = new DateTime(dateInMonth, season - 1, year, hour, minute * 10);       
+        timeInstance = this;
+        DateTime = new DateTime(dateInMonth, season - 1, year, hour, minute * 10);
+        SceneManager.sceneLoaded += OnLoadScene;
+    }
+
+    private void OnLoadScene(Scene arg0, LoadSceneMode arg1)
+    {
+        OnLoadedScene?.Invoke(DateTime);
     }
 
     private void Start()
@@ -139,8 +149,6 @@ public struct DateTime
 
     private void AdvanceDay()
     {
-        day++;
-
         if (day + 1 > (Days)7)
         {
             day = (Days)1;

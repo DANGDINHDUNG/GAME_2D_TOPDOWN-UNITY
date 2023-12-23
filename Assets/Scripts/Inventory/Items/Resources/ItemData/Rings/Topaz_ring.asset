@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5848fd823f10942b2fa2c1a115e455, type: 3}
+  m_Name: Topaz_ring
+  m_EditorClassIdentifier: 
+  iD: 9
+  displayName: Topaz Ring
+  description: This ring was made from Topaz
+  itemType: 2
+  equipmentType: 7
+  Icon: {fileID: 1642412828, guid: c69c9c4c5e1353143bfd5a2aeceb0d53, type: 3}
+  MaxStackSize: 1
+  GoldValue: 1000
+  SellValue: 500
+  attackPlus: 0
+  healthPlus: 0
+  defendPlus: 0
+  manaPlus: 60
+  spAttackPlus: 100
+  attackSpeedPlus: 0
+  critRatePlus: 0
+  critDamagePlus: 0
+  weaponSkill: {fileID: 2646194679793232544, guid: b7928565a5498dd40aefafd460d46f6e, type: 3}
+  healthRecovery: 0
+  manaRecovery: 0

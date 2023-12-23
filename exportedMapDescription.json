@@ -1,0 +1,475 @@
+{
+  "roomDescriptionsList": [
+    {
+      "Key": {
+        "Id": 0,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$id": "4",
+            "Name": "Room 1",
+            "Outline": {
+              "points": [
+                {
+                  "X": -4,
+                  "Y": 3
+                },
+                {
+                  "X": 17,
+                  "Y": 3
+                },
+                {
+                  "X": 17,
+                  "Y": -9
+                },
+                {
+                  "X": -4,
+                  "Y": -9
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -4,
+                    "Y": -2
+                  },
+                  "To": {
+                    "X": -4,
+                    "Y": -4
+                  },
+                  "Socket": null,
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 6,
+                    "Y": -9
+                  },
+                  "To": {
+                    "X": 8,
+                    "Y": -9
+                  },
+                  "Socket": null,
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 17,
+                    "Y": -2
+                  },
+                  "To": {
+                    "X": 17,
+                    "Y": -4
+                  },
+                  "Socket": null,
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 6,
+                    "Y": 3
+                  },
+                  "To": {
+                    "X": 8,
+                    "Y": 3
+                  },
+                  "Socket": null,
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 1,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 2,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 3,
+        "Name": "Spawn"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 4,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 5,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 6,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 7,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 8,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 9,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 10,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 11,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 12,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 13,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 14,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 15,
+        "Name": "Room"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "4"
+          }
+        ]
+      }
+    }
+  ],
+  "passages": [
+    {
+      "Room1": {
+        "Id": 0,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 3,
+        "Name": "Spawn"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 0,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 1,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 1,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 2,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 2,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 4,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 2,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 5,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 3,
+        "Name": "Spawn"
+      },
+      "Room2": {
+        "Id": 6,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 5,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 6,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 5,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 7,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 7,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 8,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 7,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 9,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 9,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 10,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 9,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 13,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 10,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 11,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 10,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 12,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 11,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 14,
+        "Name": "Room"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 14,
+        "Name": "Room"
+      },
+      "Room2": {
+        "Id": 15,
+        "Name": "Room"
+      }
+    }
+  ],
+  "MinimumRoomDistance": 0,
+  "Clusters": null,
+  "Constraints": null,
+  "RoomTemplateRepeatModeDefault": 2,
+  "RoomTemplateRepeatModeOverride": null,
+  "Name": "Test"
+}

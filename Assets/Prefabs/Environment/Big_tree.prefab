@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 6404832709531578459}
   - component: {fileID: 2364937260628787585}
   - component: {fileID: 8657496518453074138}
+  - component: {fileID: 3593340427375724459}
   m_Layer: 10
   m_Name: Big_tree
   m_TagString: Untagged
@@ -204,3 +205,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &3593340427375724459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075330703191743132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2322a01e68ab0446969a61171726148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
+  _spring: {fileID: -631230281, guid: 1bfbcd1975da1a0448a6cfd275d31e46, type: 3}
+  _summer: {fileID: -1427649767, guid: 1bfbcd1975da1a0448a6cfd275d31e46, type: 3}
+  _autumn: {fileID: 176201359, guid: 1bfbcd1975da1a0448a6cfd275d31e46, type: 3}
+  _winter: {fileID: -1857671325, guid: 1bfbcd1975da1a0448a6cfd275d31e46, type: 3}
+  Season: 
+  currentSeason: 

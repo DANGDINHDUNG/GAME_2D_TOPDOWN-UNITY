@@ -22,6 +22,7 @@ public class MouseItemData : MonoBehaviour
     {
         AssignedInventorySlot.AssignItem(invSlot);
         itemSprite.sprite = invSlot.ItemData.Icon;
+        itemSprite.preserveAspect = true;
         itemCount.text = invSlot.StackSize.ToString();
         itemSprite.color = Color.white;
     }

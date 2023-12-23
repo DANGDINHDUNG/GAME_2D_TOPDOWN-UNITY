@@ -27,6 +27,7 @@ TagManager:
   - Skeleton
   - ToasterBot
   - Menu
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -72,6 +73,9 @@ TagManager:
     locked: 0
   - name: Collision
     uniqueID: 3776469569
+    locked: 0
+  - name: Effect
+    uniqueID: 1646465427
     locked: 0
   - name: System
     uniqueID: 2789782373

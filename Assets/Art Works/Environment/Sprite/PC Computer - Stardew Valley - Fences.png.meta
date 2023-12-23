@@ -1,0 +1,2033 @@
+fileFormatVersion: 2
+guid: 6df0ed7532f62c245866d8009fc50ff9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 260
+        width: 13
+        height: 30
+      alignment: 9
+      pivot: {x: 0.38808367, y: 0.0015574137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aa7d3dba1037c4d9eb72f75da33ca0
+      internalID: 423069161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 260
+        width: 13
+        height: 30
+      alignment: 9
+      pivot: {x: 0.32324278, y: -0.00095418293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f7cca59b6e8ac49b5818c9ce882406
+      internalID: 634068844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 260
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936fdd3510097c849adade56348b9ebe
+      internalID: 1921081690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 9
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3b4dddf88424f458546610051a8644
+      internalID: 1898912100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 260
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c68c3fc3e9624abc8e50846e2afc1
+      internalID: -1909460207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 291
+        width: 9
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b990f97a9b638429e2b842f4c56754
+      internalID: 1320005760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 292
+        width: 9
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e377764102554542910c72549eb8e77
+      internalID: -263837465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 292
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7fb7336a54b64481a461b79981214
+      internalID: -565858442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 292
+        width: 9
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5570c510701b69d4b9aa2b2ee32c81f4
+      internalID: -2092229313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_14
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 293
+        width: 8
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee299c0c7d917742947f38ca51149c6
+      internalID: -1112088726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 293
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d59ad94ff8fd44e90349ed02a73afc
+      internalID: 1794834097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 293
+        width: 8
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257baff03de89f845a7ae71838e25f7d
+      internalID: 1806421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 292
+        width: 9
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ad202ba503d2648a8621eef2ffc16b
+      internalID: -1957654865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 292
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d987d93c3250ac49b6fae78bacec833
+      internalID: -1021301654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 291
+        width: 9
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ddd9abe92f74419840b7c9d6d1ce1
+      internalID: 1157684425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 260
+        width: 13
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6851636, y: -0.00054016116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6d089da2221b4894afef01af10c20
+      internalID: -155456493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 261
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571e9705d40633d47815ea4a786cb447
+      internalID: -703020280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 228
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.66743255, y: -0.0014586272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a87e60209d66b74b8bb6e39c3ad2ed9
+      internalID: -1698942333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 228
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.329285, y: -0.0014586272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400647570db04c42b5adf1ee936ca34
+      internalID: 641142602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_30
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 229
+        width: 13
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd63578e247ac14693782b44bd6c67e
+      internalID: -568642322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_31
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 229
+        width: 13
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e1b0e4a01792a408b1ff1ab374a15f
+      internalID: -911561343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 228
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.67833453, y: 0.00000056514034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87fa86a532931647aa6c3e18fe69bd9
+      internalID: 965721981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 228
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.34166718, y: 0.00000056514034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced7c72ea20bb4344b8680ba0341402e
+      internalID: -72858286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_40
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 228
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5995906, y: -0.00000069358134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9042d9e88983cf41baa9dddaf8c0703
+      internalID: 1305927788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 228
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.42279992, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7776ee6939f4f6342ac5218fed821665
+      internalID: 1857609484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 199
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04835da0b2ee9243a0438c6e998873e
+      internalID: 1525409549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_48
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 199
+        width: 4
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad24545336d5a4479e0b6460b69232a
+      internalID: 1566997869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 199
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8a1cf14df4bb64f9b5f9e98c84b90f
+      internalID: -779683274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_50
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 199
+        width: 4
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a856d3c62fe415a4cb0071d69eabb0d5
+      internalID: -1997282059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 199
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075f717e25135b41b5a3f35fb08e89c
+      internalID: 1328662540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 199
+        width: 4
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0efe86621c87d42ac4e3f60d8df837
+      internalID: 1424727688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 199
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec10e5a1ba7e34d429325c18cd0dd86c
+      internalID: -1730879373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 4
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b92104887cb77498893aa474587141
+      internalID: -1730373142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa01097783188408bdd7040a4a7540
+      internalID: -422053475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_56
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 186
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f69a1dc0e7210459433052128525f3
+      internalID: 771826525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_57
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3eacc7ba2a8594f9e2f0453a2c5b55
+      internalID: 1839513385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_58
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 163
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f5a54e7d872c24dacb739f6edd505a
+      internalID: -1698937878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_59
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 163
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a55e640e561f7744888f5b5f3943a34
+      internalID: -2019410831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_60
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 163
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541fabd7b6a05844898047d2d5f35fcd
+      internalID: -1312956689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_61
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 186
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6991c34c1a54f514da6d3401c249c810
+      internalID: 1292514730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_62
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 163
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7461f8b534def42ab2ff7b31e9d8a3
+      internalID: -236927476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 163
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d725e67bbc65ffc4fa5242f5d6f5a2b8
+      internalID: 1212913516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_64
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 186
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e759c22bb396d4346b9d7e869dc32aae
+      internalID: -1728532198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_65
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 163
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed80c289780eff428a41af163924f22
+      internalID: -873444521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5914d283a75933249afff9547981ddfe
+      internalID: -301978343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_67
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 163
+        width: 15
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72426577d343e6428c7f0bb35042c77
+      internalID: -318973036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_68
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 163
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c71da3e406c94491984d18847a65f
+      internalID: 1131863427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 119
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd3eb8b5230e4c4292bf7bd1554892f
+      internalID: -132050771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 119
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57480a2231f50a94cb01949ea775632b
+      internalID: 2147039988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_71
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 119
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba439168bb4b84498e72280c2dd37f
+      internalID: 1077604593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_72
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 119
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ada953cac91d01429b4eb5ebbf4e1e5
+      internalID: -1565305163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 119
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72716d4ad0f7ed468ab2610ea7fac6d
+      internalID: 1718053420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_74
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 119
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78159724b3978d84b9a22d8aaf2f94f7
+      internalID: 1725414725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_75
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 119
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1d8f58df13c144288f9d0184249c59
+      internalID: 1752689931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_76
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 119
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfdc8622fdc5f84eaabd68a3866b811
+      internalID: -1308598874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_77
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d8e4cdaa34c514caeb7674c178bf96
+      internalID: 339970817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_78
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 71
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df0af6bcc5abdc4eab1b622b085cde0
+      internalID: 1817245024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_79
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 71
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e0400dbfe887648b7e0e0fe17e5f23
+      internalID: 840889843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_80
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 71
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243683e87571b1e4fa7488fbd5cd4bc4
+      internalID: 207945875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_81
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 71
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c49ac34c02627f40a29cda3a80afdf5
+      internalID: 1628167916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 71
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba1abcf37ba784cbaaeed4173d4fd5
+      internalID: 214829370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 71
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610bb05c989f0a24fa8adac643c84e52
+      internalID: 1766983040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 4
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a7aec0ee548404ea7d3c1e507924d9
+      internalID: 1172092219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cca8bb0fca15814baeab4b745730d4a
+      internalID: 1889757188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_86
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 58
+        width: 22
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95226e9505c6b1a48849aa2272e081cf
+      internalID: 493130530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fa081126807f346b469bae31e59c73
+      internalID: 207153214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_88
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 58
+        width: 22
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f9f78766b1b274482bed3b2aa26317
+      internalID: 1590001998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_89
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 35
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cfd7473a73f2b40a4a62c8f8e26e01
+      internalID: 2036403949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_90
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 58
+        width: 22
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab665bc093f9f24a9c651bba05c44d2
+      internalID: 2000169339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 35
+        width: 6
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449f89e16388b424da5d8ab866988a21
+      internalID: -33200787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_92
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 58
+        width: 22
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5140674c4879408dd821aa90b61c8
+      internalID: 449369978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_93
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad989fea9940a4f4699adef835f15705
+      internalID: 1380011670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_94
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3
+        width: 22
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38ea5fafe1866479739d5c15d5bef2
+      internalID: 837617745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_95
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b494a3e2d7729469a5e67dfbad4bf4
+      internalID: 541715004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_96
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 22
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be63e34771c09a340a43deca5a143b80
+      internalID: 568871165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_97
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677df2b85eaea7046888f7225df07e7c
+      internalID: -238340656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_98
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 22
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90226e897623ca479a59e046bc4e656
+      internalID: 1147576558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_99
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eae07411db17143bfbf82e4ceba138
+      internalID: -1210198833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_100
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 22
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6825a5442bb1e1b4a8111ca01514bc2e
+      internalID: 1073849183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 163
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb50e090fbfd15343b089fa740f4414f
+      internalID: 1305498618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_27
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 260
+        width: 12
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6601982, y: 0.000099690755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd84ae362f068247b2c04cd297c42a7
+      internalID: -322723499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 292
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e402a8616a930e45b19c0e91c35e72a
+      internalID: 1957496310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 260
+        width: 12
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6686837, y: 0.00037434895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b56126c3d91d2c4bb318191b6e758b6
+      internalID: 71475061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 260
+        width: 12
+        height: 30
+      alignment: 9
+      pivot: {x: 0.38731256, y: 0.0020314534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afd6c77153ab8f46869c9bc90398232
+      internalID: -974198867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Fences_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 260
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5273994, y: -0.00030178495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d996cee6453de42ace82c5d44fe494
+      internalID: -907951474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Fences_33: -57385676
+      PC Computer - Stardew Valley - Fences_14: -1112088726
+      PC Computer - Stardew Valley - Fences_96: 568871165
+      PC Computer - Stardew Valley - Fences_6: 662052925
+      PC Computer - Stardew Valley - Fences_49: -779683274
+      PC Computer - Stardew Valley - Fences_72: -1565305163
+      PC Computer - Stardew Valley - Fences_100: 1073849183
+      PC Computer - Stardew Valley - Fences_59: -2019410831
+      PC Computer - Stardew Valley - Fences_95: 541715004
+      PC Computer - Stardew Valley - Fences_76: -1308598874
+      PC Computer - Stardew Valley - Fences_89: 2036403949
+      PC Computer - Stardew Valley - Fences_62: -236927476
+      PC Computer - Stardew Valley - Fences_63: 1212913516
+      PC Computer - Stardew Valley - Fences_40: 1305927788
+      PC Computer - Stardew Valley - Fences_21: 198175182
+      PC Computer - Stardew Valley - Fences_22: -703020280
+      PC Computer - Stardew Valley - Fences_93: 1380011670
+      PC Computer - Stardew Valley - Fences_86: 493130530
+      PC Computer - Stardew Valley - Fences_9: -1909460207
+      PC Computer - Stardew Valley - Fences_43: 1742617545
+      PC Computer - Stardew Valley - Fences_81: 1628167916
+      PC Computer - Stardew Valley - Fences_11: -263837465
+      PC Computer - Stardew Valley - Fences_82: 214829370
+      PC Computer - Stardew Valley - Fences_0: 423069161
+      PC Computer - Stardew Valley - Fences_69: -132050771
+      PC Computer - Stardew Valley - Fences_39: 1856305918
+      PC Computer - Stardew Valley - Fences_13: -2092229313
+      PC Computer - Stardew Valley - Fences_29: -391876352
+      PC Computer - Stardew Valley - Fences_3: 71475061
+      PC Computer - Stardew Valley - Fences_85: 1889757188
+      PC Computer - Stardew Valley - Fences_65: -873444521
+      PC Computer - Stardew Valley - Fences_19: 1157684425
+      PC Computer - Stardew Valley - Fences_84: 1172092219
+      PC Computer - Stardew Valley - Fences_74: 1725414725
+      PC Computer - Stardew Valley - Fences_48: 1566997869
+      PC Computer - Stardew Valley - Fences_64: -1728532198
+      PC Computer - Stardew Valley - Fences_54: -1730373142
+      PC Computer - Stardew Valley - Fences_88: 1590001998
+      PC Computer - Stardew Valley - Fences_83: 1766983040
+      PC Computer - Stardew Valley - Fences_42: -1904864816
+      PC Computer - Stardew Valley - Fences_97: -238340656
+      PC Computer - Stardew Valley - Fences_75: 1752689931
+      PC Computer - Stardew Valley - Fences_56: 771826525
+      PC Computer - Stardew Valley - Fences_25: 641142602
+      PC Computer - Stardew Valley - Fences_87: 207153214
+      PC Computer - Stardew Valley - Fences_80: 207945875
+      PC Computer - Stardew Valley - Fences_23: 1734767154
+      PC Computer - Stardew Valley - Fences_57: 1839513385
+      PC Computer - Stardew Valley - Fences_78: 1817245024
+      PC Computer - Stardew Valley - Fences_91: -33200787
+      PC Computer - Stardew Valley - Fences_17: -1957654865
+      PC Computer - Stardew Valley - Fences_20: -155456493
+      PC Computer - Stardew Valley - Fences_32: -1701699190
+      PC Computer - Stardew Valley - Fences_36: 1958315412
+      PC Computer - Stardew Valley - Fences_58: -1698937878
+      PC Computer - Stardew Valley - Fences_30: -568642322
+      PC Computer - Stardew Valley - Fences_5: -907951474
+      PC Computer - Stardew Valley - Fences_98: 1147576558
+      PC Computer - Stardew Valley - Fences_50: -1997282059
+      PC Computer - Stardew Valley - Fences_1: 634068844
+      PC Computer - Stardew Valley - Fences_71: 1077604593
+      PC Computer - Stardew Valley - Fences_99: -1210198833
+      PC Computer - Stardew Valley - Fences_26: 1305498618
+      PC Computer - Stardew Valley - Fences_77: 339970817
+      PC Computer - Stardew Valley - Fences_27: -322723499
+      PC Computer - Stardew Valley - Fences_68: 1131863427
+      PC Computer - Stardew Valley - Fences_101: -1232242672
+      PC Computer - Stardew Valley - Fences_66: -301978343
+      PC Computer - Stardew Valley - Fences_44: 1048860600
+      PC Computer - Stardew Valley - Fences_4: -974198867
+      PC Computer - Stardew Valley - Fences_53: -1730879373
+      PC Computer - Stardew Valley - Fences_12: -565858442
+      PC Computer - Stardew Valley - Fences_55: -422053475
+      PC Computer - Stardew Valley - Fences_7: 462710396
+      PC Computer - Stardew Valley - Fences_46: 2084877170
+      PC Computer - Stardew Valley - Fences_60: -1312956689
+      PC Computer - Stardew Valley - Fences_90: 2000169339
+      PC Computer - Stardew Valley - Fences_41: 1857609484
+      PC Computer - Stardew Valley - Fences_38: 959552092
+      PC Computer - Stardew Valley - Fences_28: 1957496310
+      PC Computer - Stardew Valley - Fences_79: 840889843
+      PC Computer - Stardew Valley - Fences_10: 1320005760
+      PC Computer - Stardew Valley - Fences_34: 965721981
+      PC Computer - Stardew Valley - Fences_67: -318973036
+      PC Computer - Stardew Valley - Fences_8: 1898912100
+      PC Computer - Stardew Valley - Fences_61: 1292514730
+      PC Computer - Stardew Valley - Fences_92: 449369978
+      PC Computer - Stardew Valley - Fences_16: 1806421251
+      PC Computer - Stardew Valley - Fences_47: 1525409549
+      PC Computer - Stardew Valley - Fences_45: -2028766233
+      PC Computer - Stardew Valley - Fences_15: 1794834097
+      PC Computer - Stardew Valley - Fences_52: 1424727688
+      PC Computer - Stardew Valley - Fences_94: 837617745
+      PC Computer - Stardew Valley - Fences_73: 1718053420
+      PC Computer - Stardew Valley - Fences_18: -1021301654
+      PC Computer - Stardew Valley - Fences_24: -1698942333
+      PC Computer - Stardew Valley - Fences_35: -72858286
+      PC Computer - Stardew Valley - Fences_37: -1130504453
+      PC Computer - Stardew Valley - Fences_51: 1328662540
+      PC Computer - Stardew Valley - Fences_70: 2147039988
+      PC Computer - Stardew Valley - Fences_2: 1921081690
+      PC Computer - Stardew Valley - Fences_31: -911561343
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

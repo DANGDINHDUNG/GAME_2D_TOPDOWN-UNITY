@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb6794c6ebe1ab4ea512438822a5869, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
+  Thumbnail: {fileID: 21300000, guid: edc673ec620ce87478d51902a7d2b1e7, type: 3}
   DamageAmount: 10
+  skillType: 0
   ManaCost: 20
   LifeTime: 0.5
   Speed: 15
+  DamageOfTime: 0
+  Cooldown: 2

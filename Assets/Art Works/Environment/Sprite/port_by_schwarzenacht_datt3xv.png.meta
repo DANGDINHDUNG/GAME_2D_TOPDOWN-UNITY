@@ -1,0 +1,1862 @@
+fileFormatVersion: 2
+guid: 50068cceefea8d5418eee5dbb92b64ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 448
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3dfef868528846b04774c9599ec95
+      internalID: 1630071746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 448
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea995192ba76c6c4da73e3f6ac6d812b
+      internalID: 304472622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 384
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d9f5c30bebd34b8e759b9e65f2044
+      internalID: -32798028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 384
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d7be493c38c394192947b9018743dc
+      internalID: -1930579137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70025d29cf6d9e441a7f48c30b3c13ab
+      internalID: -1622899038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 385
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97eaf1740971aa49b912b696e6f2884
+      internalID: -338416933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 256
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd209d55b37cefe4fa059c57f7215b7f
+      internalID: 1292053700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49447a743023fa458837451dc50175e
+      internalID: -672591452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e3c3085da4a094b92aed4b61f97226
+      internalID: -1184215464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686523c26c5a6fb49b1f37f06da5eca4
+      internalID: -617717813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf9317f99a03be4fa6466200b43732a
+      internalID: -2083762558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 64
+        width: 114
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f60c2834844043a2358884b0a0deb
+      internalID: 438534209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 88
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a00132821d9894f962f54952e310f0
+      internalID: -845637598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8bc513919c5f24e838fa807209d6a5
+      internalID: 665187413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc6de0167ade6a41a4ef04e01d5168b
+      internalID: -2076429800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f90df46ce9969e4894dc1a4752d4a7c
+      internalID: -1677109866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9936ae5d5467f4695c88b984753e24
+      internalID: -1321969216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f86001a32d2b04a8b5d642208d0b9d
+      internalID: -2054131073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2890984076c144cb366cd75f620439
+      internalID: -1265395897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c6df18c234704a9300c42bc769c8e
+      internalID: 610000722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfa5a6a840960d47b01bb9856d40905
+      internalID: 443824860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 72
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13b61503f2d8ee4c9ef3ea09edd716f
+      internalID: 591317524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c4166e332e3d3409fa9ac26eecbe03
+      internalID: -634860935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 97
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9ac6cbfa5b68b408eab1f2a7611445
+      internalID: 1065233828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563b2fdc40049bb4fbf33bc157385b31
+      internalID: -393747021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24276260627526438988147fc067e6b
+      internalID: 1051234895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80e051eb199d644b11249e329f34df
+      internalID: 1164457073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 129
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba7191138098a94c8271a49e085773a
+      internalID: 1254662862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019a04fc6ecbff84f8edc27170ba77d2
+      internalID: -802895110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 129
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c27a588b9fcf4458e6cc45a6996946
+      internalID: -1427333447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b7fa7f9171eb741b22fd33803d3f66
+      internalID: 1587863124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 192
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082940cc7048c3544932dc3077d4639f
+      internalID: 1701466740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae330b8ac717c641b550e5ba6bc9dcd
+      internalID: -428412184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace4492f98a8924d9e6920f95535bda
+      internalID: -860489451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 224
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164082b3894284142b5bfe17d64d62dc
+      internalID: 217968522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 224
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906f76e7cdeded041b748c4c3024d6a0
+      internalID: -229351209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 206
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e9c2fadde2ffa4595d65d286deb143
+      internalID: 1493642724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f06cee45455d4ebc79cc246f8b9ca
+      internalID: 335448596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411c97939182c44fa103d711eb7fb19
+      internalID: 522782553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 256
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4687fe69370eeb84d8f26d185e21471d
+      internalID: -134878629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccd6413f46d71646be596325c357d6a
+      internalID: 1213925731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f844b9704d3686446b035d67e4d7bfa1
+      internalID: -1859266377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 320
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af5ec101cb2c4f439e88f320e1d20e3
+      internalID: -653846793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 320
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2517cbb7c4c926e468efa7af89f22572
+      internalID: 717351696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c32b0a50fc20b04fa5b017d91dccadb
+      internalID: -394687030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246735d30895e0c4ba7ebfae35dc90ae
+      internalID: 521041846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_46
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 297
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d75a7bda84e04c8a438a40e5cfd74
+      internalID: 526645004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 290
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc7fcdc5df7c747ae2773a013b3acc
+      internalID: 129717781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_48
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 256
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1526c1f644803924ab813cf85e8f6dd9
+      internalID: -1480492970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_49
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 264
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6efb9b4fb1c5be47a24a90465df3e60
+      internalID: -657085671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 264
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30512a57e00bec147a9892570d1154c5
+      internalID: -690471974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_51
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297f93efbacf436488d5c799b66133cc
+      internalID: 2022020330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2a4e940c3dfde42a08ec92f3dcfb67
+      internalID: -1302076936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_53
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 321
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700352ccc8588af4da1b1d31bff06dfd
+      internalID: -1331618955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_54
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 354
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc007fb260a52c478fadd937196bdb6
+      internalID: -1180673178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_55
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 353
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9944e8e71aa464693a2f5e0401bff7
+      internalID: 511861363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_56
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 352
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2e04c88b583ae40ae58e6d6d298cb1
+      internalID: 1523928165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b219e2585f068164f97ca44d408c1346
+      internalID: 1940468013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_58
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 352
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3660341cd71c3e24c82fa89918f4720d
+      internalID: -1558722393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 352
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f754b4910a78b44eba0572d89dde0a1
+      internalID: 178718847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_60
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 354
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca4be756631b141bde99a844b34b10
+      internalID: -205311516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_61
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 352
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdf67c5ba0e9634193f198082b79387
+      internalID: 1538137831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540c81dee4ce8b646b1c504675aca799
+      internalID: 1524227174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a2a173e087914faac790a66f1bed8
+      internalID: -557163889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_64
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 384
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ac34dbb3e59bb4ab0460d966da7f0b
+      internalID: -185486642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_65
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 386
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db1fe49c12a055499100ae7cfab0520
+      internalID: -1217736747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_66
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 387
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf677a88b25dc741ba07d2223a70b75
+      internalID: -352752448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_67
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 386
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da73044d4d7e0384280f7b4fdac77e72
+      internalID: 1956741266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 424
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20c40e7623224445beda668691b5a8d
+      internalID: 380431191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_69
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59176e02913766043b811a21ef54ab5d
+      internalID: -1688423583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_70
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 482
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b2bbd1f4f1ab4bb618ec8216a3913
+      internalID: 1961033146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 498
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994aaac0de613147be29eb668790b2c
+      internalID: 1372910031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_72
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 467
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f21b081d0e5f48bd694436e04f401
+      internalID: 1149390772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_73
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 448
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871b2ba805225364697980ee8e47841c
+      internalID: -1537212466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_74
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 483
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0da8e5f0836f944b35b7316a28be02
+      internalID: -645199472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_75
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 451
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d22b0b9667a1d45a69d86645724d0b
+      internalID: 502307558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 449
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fa5378ebb5d3c4ba86fd174ed72898
+      internalID: -1624958185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: port_by_schwarzenacht_datt3xv_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 482
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee54f282ffbd6c4eb5d34e5ece0ed9f
+      internalID: 502504722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      port_by_schwarzenacht_datt3xv_47: 129717781
+      port_by_schwarzenacht_datt3xv_15: -1677109866
+      port_by_schwarzenacht_datt3xv_68: 380431191
+      port_by_schwarzenacht_datt3xv_75: 502307558
+      port_by_schwarzenacht_datt3xv_60: -205311516
+      port_by_schwarzenacht_datt3xv_28: -802895110
+      port_by_schwarzenacht_datt3xv_27: 1254662862
+      port_by_schwarzenacht_datt3xv_71: 1372910031
+      port_by_schwarzenacht_datt3xv_40: 1213925731
+      port_by_schwarzenacht_datt3xv_37: 335448596
+      port_by_schwarzenacht_datt3xv_72: 1149390772
+      port_by_schwarzenacht_datt3xv_76: -1624958185
+      port_by_schwarzenacht_datt3xv_11: 438534209
+      port_by_schwarzenacht_datt3xv_53: -1331618955
+      port_by_schwarzenacht_datt3xv_58: -1558722393
+      port_by_schwarzenacht_datt3xv_54: -1180673178
+      port_by_schwarzenacht_datt3xv_33: -860489451
+      port_by_schwarzenacht_datt3xv_50: -690471974
+      port_by_schwarzenacht_datt3xv_65: -1217736747
+      port_by_schwarzenacht_datt3xv_12: -845637598
+      port_by_schwarzenacht_datt3xv_52: -1302076936
+      port_by_schwarzenacht_datt3xv_70: 1961033146
+      port_by_schwarzenacht_datt3xv_34: 217968522
+      port_by_schwarzenacht_datt3xv_35: -229351209
+      port_by_schwarzenacht_datt3xv_17: -2054131073
+      port_by_schwarzenacht_datt3xv_73: -1537212466
+      port_by_schwarzenacht_datt3xv_74: -645199472
+      port_by_schwarzenacht_datt3xv_6: 1292053700
+      port_by_schwarzenacht_datt3xv_8: -1184215464
+      port_by_schwarzenacht_datt3xv_41: -1859266377
+      port_by_schwarzenacht_datt3xv_46: 526645004
+      port_by_schwarzenacht_datt3xv_10: -2083762558
+      port_by_schwarzenacht_datt3xv_59: 178718847
+      port_by_schwarzenacht_datt3xv_61: 1538137831
+      port_by_schwarzenacht_datt3xv_67: 1956741266
+      port_by_schwarzenacht_datt3xv_45: 521041846
+      port_by_schwarzenacht_datt3xv_3: -1930579137
+      port_by_schwarzenacht_datt3xv_30: 1587863124
+      port_by_schwarzenacht_datt3xv_24: -393747021
+      port_by_schwarzenacht_datt3xv_26: 1164457073
+      port_by_schwarzenacht_datt3xv_4: -1622899038
+      port_by_schwarzenacht_datt3xv_0: 1630071746
+      port_by_schwarzenacht_datt3xv_1: 304472622
+      port_by_schwarzenacht_datt3xv_44: -394687030
+      port_by_schwarzenacht_datt3xv_48: -1480492970
+      port_by_schwarzenacht_datt3xv_9: -617717813
+      port_by_schwarzenacht_datt3xv_23: 1065233828
+      port_by_schwarzenacht_datt3xv_29: -1427333447
+      port_by_schwarzenacht_datt3xv_55: 511861363
+      port_by_schwarzenacht_datt3xv_38: 522782553
+      port_by_schwarzenacht_datt3xv_32: -428412184
+      port_by_schwarzenacht_datt3xv_69: -1688423583
+      port_by_schwarzenacht_datt3xv_2: -32798028
+      port_by_schwarzenacht_datt3xv_5: -338416933
+      port_by_schwarzenacht_datt3xv_77: 502504722
+      port_by_schwarzenacht_datt3xv_16: -1321969216
+      port_by_schwarzenacht_datt3xv_14: -2076429800
+      port_by_schwarzenacht_datt3xv_42: -653846793
+      port_by_schwarzenacht_datt3xv_13: 665187413
+      port_by_schwarzenacht_datt3xv_22: -634860935
+      port_by_schwarzenacht_datt3xv_36: 1493642724
+      port_by_schwarzenacht_datt3xv_19: 610000722
+      port_by_schwarzenacht_datt3xv_62: 1524227174
+      port_by_schwarzenacht_datt3xv_21: 591317524
+      port_by_schwarzenacht_datt3xv_39: -134878629
+      port_by_schwarzenacht_datt3xv_31: 1701466740
+      port_by_schwarzenacht_datt3xv_18: -1265395897
+      port_by_schwarzenacht_datt3xv_25: 1051234895
+      port_by_schwarzenacht_datt3xv_56: 1523928165
+      port_by_schwarzenacht_datt3xv_51: 2022020330
+      port_by_schwarzenacht_datt3xv_64: -185486642
+      port_by_schwarzenacht_datt3xv_49: -657085671
+      port_by_schwarzenacht_datt3xv_63: -557163889
+      port_by_schwarzenacht_datt3xv_57: 1940468013
+      port_by_schwarzenacht_datt3xv_7: -672591452
+      port_by_schwarzenacht_datt3xv_66: -352752448
+      port_by_schwarzenacht_datt3xv_20: 443824860
+      port_by_schwarzenacht_datt3xv_43: 717351696
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

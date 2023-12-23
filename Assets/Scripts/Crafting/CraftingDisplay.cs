@@ -129,8 +129,6 @@ public class CraftingDisplay : MonoBehaviour
         _itemPreviewDescription.text = data.description;
     }
 
-
-
     public void UpdateChosenRecipe(CraftingRecipe _recipe)
     {
         _chosenRecipe = _recipe;

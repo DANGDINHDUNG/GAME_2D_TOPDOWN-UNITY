@@ -230,4 +230,18 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void EnableController()
+    {
+        this.gameObject.GetComponent<PlayerMovement>().enabled = true;
+    }
+
+    public void DisableController()
+    {
+        this.gameObject.GetComponent<PlayerMovement>().enabled = false;
+        rgd.velocity = Vector2.zero;
+        movement = Vector2.zero;
+        animator.SetFloat("Speed", 0);
+        animator.SetFloat("LastHorizontal", -1);
+        animator.SetFloat("LastVertical", 0);
+    }
 }

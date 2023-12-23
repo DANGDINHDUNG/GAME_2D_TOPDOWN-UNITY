@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 0428c6852104cc744b0b61dfa0d4c541
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lamp 1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 267
+        width: 156
+        height: 296
+      alignment: 9
+      pivot: {x: 0.488429, y: 0.000009175894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -148}
+        - {x: -12, y: -103}
+        - {x: 8, y: -103}
+        - {x: 8, y: -148}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8559ff32b7ba8f4db52d824d20d51b7
+      internalID: -777954088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 303
+        width: 166
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5170757, y: -0.00000011920929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -21, y: -128}
+        - {x: -21, y: -100}
+        - {x: -11, y: -90}
+        - {x: -11, y: -70}
+        - {x: 15, y: -70}
+        - {x: 15, y: -90}
+        - {x: 25, y: -100}
+        - {x: 25, y: -128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd48523fc421747aadc7a10f7757ca
+      internalID: -1587672652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 337
+        width: 156
+        height: 226
+      alignment: 9
+      pivot: {x: 0.49064657, y: -0.0001344934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -113}
+        - {x: -12, y: -76}
+        - {x: 8, y: -76}
+        - {x: 8, y: -113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d152b3f2df85f42a4639626b95f0cd
+      internalID: -1095798380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 331
+        width: 108
+        height: 238
+      alignment: 9
+      pivot: {x: 0.8119479, y: -0.00000012822512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -119}
+        - {x: 8, y: -91}
+        - {x: 18, y: -81}
+        - {x: 18, y: -61}
+        - {x: 44, y: -61}
+        - {x: 44, y: -81}
+        - {x: 54, y: -91}
+        - {x: 54, y: -119}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342357252fd8fde4eb6d62e593f725b2
+      internalID: 528336346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_4
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 345
+        width: 100
+        height: 224
+      alignment: 9
+      pivot: {x: 0.8035339, y: -0.0000001362392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 20, y: -112}
+        - {x: 20, y: -67}
+        - {x: 40, y: -67}
+        - {x: 40, y: -112}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b005c5161ffcf1443ad04c360ae8ce68
+      internalID: 594238369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 11
+        width: 164
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5226764, y: -0.00000008742015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -120}
+        - {x: -20, y: -90}
+        - {x: -10, y: -80}
+        - {x: -10, y: -60}
+        - {x: 16, y: -60}
+        - {x: 16, y: -80}
+        - {x: 26, y: -90}
+        - {x: 26, y: -120}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34489f8c2dff2f844865744b71179533
+      internalID: 207190438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_6
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 43
+        width: 100
+        height: 224
+      alignment: 9
+      pivot: {x: 0.19500916, y: 0.0000000681196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: -112}
+        - {x: -40, y: -73}
+        - {x: -20, y: -73}
+        - {x: -20, y: -112}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0d52e46f2a50045a3be7484fa72f7c
+      internalID: 713640843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp 1_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 29
+        width: 108
+        height: 238
+      alignment: 9
+      pivot: {x: 0.20325498, y: 0.00033163023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -54, y: -119}
+        - {x: -54, y: -91}
+        - {x: -44, y: -81}
+        - {x: -44, y: -61}
+        - {x: -18, y: -61}
+        - {x: -18, y: -81}
+        - {x: -8, y: -91}
+        - {x: -8, y: -119}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e10a9f5d468c31499d58331e3609e8c
+      internalID: -139285934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lamp 1_7: -139285934
+      lamp 1_2: -1095798380
+      lamp 1_4: 594238369
+      lamp 1_5: 207190438
+      lamp 1_6: 713640843
+      lamp 1_1: -1587672652
+      lamp 1_0: -777954088
+      lamp 1_3: 528336346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

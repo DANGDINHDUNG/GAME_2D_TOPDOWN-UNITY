@@ -33,9 +33,5 @@ public class TabButtonUI : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         tabGroup.Subscribe(this);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

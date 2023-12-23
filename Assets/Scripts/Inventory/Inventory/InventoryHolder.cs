@@ -25,7 +25,7 @@ public abstract class InventoryHolder : MonoBehaviour
         SaveLoad.OnLoadGame += LoadInventory;
 
         primaryInventorySystem = new InventorySystem(inventorySize, _gold);
-        equipmentInventorySystem = new InventorySystem(1, _gold);
+        equipmentInventorySystem = new InventorySystem(offset, _gold);
     }
 
     protected abstract void LoadInventory(SaveData saveData);    

@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 9eb3e8fa05550cb44b029326790109d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: candle_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 427
+        width: 58
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -55.5}
+        - {x: -5, y: -101.5}
+        - {x: 10, y: -101.5}
+        - {x: 10, y: -55.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316a43969379a549980070847b6609b
+      internalID: -508597878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_2
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 431
+        width: 61
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6.5, y: -62}
+        - {x: -7.5, y: -103}
+        - {x: 6.5, y: -101}
+        - {x: 12.5, y: -62}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c8f0128b5348f43b9d62b2d32bdb21
+      internalID: -1360050683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 427
+        width: 151
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8.5, y: -22}
+        - {x: -39.5, y: -21}
+        - {x: -64.5, y: -39}
+        - {x: -63.5, y: -61}
+        - {x: -37.5, y: -87}
+        - {x: 31.5, y: -87}
+        - {x: 64.5, y: -61}
+        - {x: 56.5, y: -34}
+        - {x: 42.5, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d74c3bab69ef24ca3916acafcc2c07
+      internalID: -1328031505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 427
+        width: 110
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20358f247183676468a1077c24bc34af
+      internalID: -1430718431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 427
+        width: 144
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aabfbdf630b5a42917c96a0fdbcd28
+      internalID: -1454061015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 427
+        width: 144
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0b00fa7e44f7c4aa38262f97eb2b45
+      internalID: 1286268621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_8
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 435
+        width: 76
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a8b3db4129f345820dd8f399a0fde
+      internalID: 487443348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_9
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 427
+        width: 118
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: 21}
+        - {x: -55, y: -16}
+        - {x: -37, y: -78}
+        - {x: 39, y: -79}
+        - {x: 56, y: -11}
+        - {x: 25, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a68e15266673d4da0213976689f00f
+      internalID: -413066124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 132
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -47, y: -108}
+        - {x: -42, y: -149}
+        - {x: -25, y: -149}
+        - {x: -25, y: -108}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da42f2628ed4edd408b7ad1f5b460024
+      internalID: -778252676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 120
+        width: 203
+        height: 159
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.5, y: 5.5}
+        - {x: -82.5, y: 5.5}
+        - {x: -82.5, y: -46.5}
+        - {x: -58.5, y: -56.5}
+        - {x: -30.5, y: -69.5}
+        - {x: 28.5, y: -68.5}
+        - {x: 81.5, y: -49.5}
+        - {x: 79.5, y: 6.5}
+        - {x: 26.5, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef75324a9e388f4bbd3014f85fe6f5a
+      internalID: 559910819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 45
+        width: 417
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1f24c3ec06d964087867f539bd201e
+      internalID: 271920145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 112
+        width: 245
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.5, y: 5.5}
+        - {x: -101.5, y: -11.5}
+        - {x: -106.5, y: -53.5}
+        - {x: -74.5, y: -76.5}
+        - {x: -27.5, y: -88.5}
+        - {x: 32.5, y: -85.5}
+        - {x: 90.5, y: -74.5}
+        - {x: 112.5, y: -51.5}
+        - {x: 105.5, y: -9.5}
+        - {x: 26.5, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2de998f8a40ae64c87dcb6d826465e3
+      internalID: 1510465219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 26
+        width: 192
+        height: 354
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -116}
+        - {x: -10, y: -164}
+        - {x: 10, y: -164}
+        - {x: 10, y: -116}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47388a673d5bb2448be848a041842d5e
+      internalID: -764625213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      candle_6: -1454061015
+      candle_11: 559910819
+      candle_8: 487443348
+      candle_7: 1286268621
+      candle_12: 271920145
+      candle_10: -778252676
+      candle_0: -578551501
+      candle_14: -764625213
+      candle_9: -413066124
+      candle_13: 1510465219
+      candle_1: -508597878
+      candle_4: -1328031505
+      candle_5: -1430718431
+      candle_2: -1360050683
+      candle_3: -1152723676
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

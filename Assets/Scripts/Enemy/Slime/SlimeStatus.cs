@@ -2,31 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlimeStatus : MonoBehaviour
+public class SlimeStatus : HealthBase
 {
-    [SerializeField] private Animator animator;
-    [SerializeField] private float maxHealth = 100;
-    [SerializeField] private float currentHealth;
 
-    private Rigidbody2D theRB2D;
 
     [SerializeField] private float boundForce = 1000;
 
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private SlimeMovement slimeMovement;
 
-    [SerializeField] private GameObject itemDropRef;
-
-
     [SerializeField] private int direction;
     float currentFollowDistance;
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
-        currentHealth = maxHealth;
+        base.Start();
         animator = GetComponent<Animator>();
-        theRB2D = GetComponent<Rigidbody2D>();
         slimeMovement = GetComponent<SlimeMovement>();
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
         currentFollowDistance = slimeMovement.activeFollowDistance;
@@ -52,10 +44,9 @@ public class SlimeStatus : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public override void TakeDame(float damage, string type, bool status)
     {
-        currentHealth -= damage;
-        SceneShakeController.Instance.ShakeCamera(3f, .1f);
+        base.TakeDame(damage, type, status);
         StartCoroutine(KnockBackTime());
         KnockBackController();
 
@@ -70,7 +61,7 @@ public class SlimeStatus : MonoBehaviour
         }
     }
 
-    void Die()
+    protected override void Die()
     {
         // Die animation
         animator.SetBool("IsDead", true);
@@ -117,7 +108,7 @@ public class SlimeStatus : MonoBehaviour
         slimeMovement.activeFollowDistance = currentFollowDistance;
     }
 
-    void DropItem()
+    protected override void DropItem()
     {
         GameObject itemDrop = (GameObject)Instantiate(itemDropRef);
 

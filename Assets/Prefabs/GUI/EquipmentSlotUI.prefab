@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 96, y: 86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &439973312892138308
 CanvasRenderer:
@@ -215,3 +215,4 @@ MonoBehaviour:
   assignedInventorySlot:
     _itemID: -1
     stackSize: -1
+  equipmentType: 8

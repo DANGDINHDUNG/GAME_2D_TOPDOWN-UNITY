@@ -1,31 +1,16 @@
 -> main
 
-=== guide ===
-How are you feeling today?
-+ [Happy]
-    That makes me feel happy as well #portrait:lilly_happy
-+ [Sad]
-    Oh, well that makes me sad too. #portrait:lilly_sad
-    
-- Don't trust him, he's <b>not</b> a real doctor! #speaker:Test #portrait:alexia_neutral
-
-Well, do you have any more questions? #speaker:Lilly #portrait:lilly_neutral
-+ [Yes]
-    -> guide
-+ [No]
-    Goodbye, then!
-    -> END
-    
 === main ===
-Thank you for helping me #speaker:Lilly #portrait:lilly_happy
-Your outfit looks weird, aren't you from here? #speaker:Lilly #portrait:lilly_neutral
-+ [That's right! I come from a far away place.]
-     You're lucky you're here, otherwise I don't know what I'll do #speaker:Lilly #portrait:lilly_happy
-     + + [Why would someone like you appear in this dangerous place?]
-     I plan to come up here to pick some herbs for medicine. But unexpectedly, I encountered these monsters in the middle of the road. #speaker:Lilly #portrait:lilly_sad
-     Fortunately, you came to help in time #speaker:Lilly #portrait:lilly_happy
-     If it ok, can you come with me to the village so I can thank you! #speaker:Lilly #portrait:lilly_neutral
-         +++ [In that case, would you mind taking me to the village, I'm new here so I'm not familiar with the place.]
-             If so, great! You can wait for me to finish picking the medicine and then you can go home! together! #speaker:Lilly #portrait:lilly_happy
+Cảm ơn bạn đã giúp tôi. #speaker:Lilly #portrait:lilly_happy
+Trang phục của bạn có vẻ lạ, bạn không phải là người ở đây à? #speaker:Lilly #portrait:lilly_neutral
++ [Có thể coi là vậy. Tôi đến từ một nơi rất xa.] #speaker:Player
+    Thật may vì có bạn ở đây, nếu không thì tôi có lẽ đã gặp nguy hiểm rồi. #speaker:Lilly #portrait:lilly_happy
+     + + [Tại sao một người như bạn lại xuất hiện ở những nơi nguy hiểm này?] #speaker:Player
+     Tôi định tới đây để thu lập một số thảo dược để chế tạo dược liệu. Nhưng không ngờ giữa được lại gặp phải bọn quái vật này. #speaker:Lilly #portrait:lilly_sad
+     May mắn thay bạn đã xuất hiện kịp thời. #speaker:Lilly #portrait:lilly_happy
+     Có ổn không khi tôi mới bạn tới nhà của tôi để tôi có thể cảm ơn bạn, làng của tôi sinh sống cũng khá gần đây. #speaker:Lilly #portrait:lilly_neutral
+         +++ [Trong trường hợp đó, bạn có thể vui lòng đưa tôi đến làng được không, tôi mới đến đây nên chưa quen với nơi này.] #speaker:Player
+             Nếu vậy thì tuyệt vời! Bạn có thể đợi tôi chọn thuốc xong rồi về nhà nhé! #speaker:Lilly #portrait:lilly_happy
+             Cùng nhau! #speaker:Lilly #portrait:lilly_happy
              -> DONE
 -> END

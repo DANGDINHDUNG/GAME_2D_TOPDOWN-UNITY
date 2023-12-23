@@ -42,14 +42,14 @@ public class SaveGameManager : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadSceneAsync("SampleScene");
         MainMenu.instance.state = 0;
         MainMenu.instance.isInMenuScene = false;
     }
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadSceneAsync("SampleScene");
         MainMenu.instance.state = 1;
         MainMenu.instance.isInMenuScene = false;
     }

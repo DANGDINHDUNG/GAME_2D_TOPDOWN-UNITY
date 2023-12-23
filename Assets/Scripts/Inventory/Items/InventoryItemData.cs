@@ -17,6 +17,7 @@ public class InventoryItemData : ScriptableObject
     [TextArea(4, 4)]
     public string description;
     public ItemType itemType = ItemType.NoType;
+    public EquipmentType equipmentType = EquipmentType.NoType;
     public Sprite Icon;
     public int MaxStackSize;
     public int GoldValue;
@@ -27,6 +28,9 @@ public class InventoryItemData : ScriptableObject
     public float manaPlus;
     public float spAttackPlus;
     public float attackSpeedPlus;
+    public float critRatePlus;
+    public float critDamagePlus;
+    public Skills weaponSkill;
 
     public int healthRecovery;
     public int manaRecovery;
@@ -37,10 +41,23 @@ public enum ItemType
 {
     NoType,
     Resource,
-    Weapon,
+    Equipment,
     Potion,
     Food
 };
+
+public enum EquipmentType
+{
+    NoType,
+    Head,
+    Body, 
+    Chain,
+    Belt,
+    Boots,
+    Shield,
+    Ring, 
+    Weapon
+}
 
 #if UNITY_EDITOR
 [CustomEditor(typeof(InventoryItemData)), CanEditMultipleObjects]
@@ -68,15 +85,22 @@ public class ItemDataEditor : Editor
             itemData.manaRecovery = EditorGUILayout.IntField("Mana Recovery", itemData.manaRecovery);
         }
         // Display conditional for one	
-        if (itemData.itemType == ItemType.Weapon)
+        if (itemData.itemType == ItemType.Equipment)
         {
+            itemData.equipmentType = (EquipmentType)EditorGUILayout.EnumPopup("EquipmentType", itemData.equipmentType);
+
             itemData.attackPlus = EditorGUILayout.FloatField("Attack Plus", itemData.attackPlus);
             itemData.healthPlus = EditorGUILayout.FloatField("Health Plus", itemData.healthPlus);
             itemData.defendPlus = EditorGUILayout.FloatField("Defend Plus", itemData.defendPlus);
             itemData.manaPlus = EditorGUILayout.FloatField("Mana Plus", itemData.manaPlus);
             itemData.spAttackPlus = EditorGUILayout.FloatField("Sp.Attack Plus", itemData.spAttackPlus);
             itemData.attackSpeedPlus = EditorGUILayout.FloatField("Attack Speed Plus", itemData.attackSpeedPlus);
-
+            itemData.critRatePlus = EditorGUILayout.FloatField("Crit Rate Plus", itemData.critRatePlus);
+            itemData.critDamagePlus = EditorGUILayout.FloatField("Crit Damage Plus", itemData.critDamagePlus);
+            if (itemData.equipmentType == EquipmentType.Ring)
+            {
+                itemData.weaponSkill = (Skills)EditorGUILayout.ObjectField("Weapon Skill", itemData.weaponSkill, typeof(Skills), false);
+            }
         }
 
 

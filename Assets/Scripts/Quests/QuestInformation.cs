@@ -31,3 +31,4 @@ public struct QuestIngredient
         AmountRequired = amountRequired;
     }
 }
+

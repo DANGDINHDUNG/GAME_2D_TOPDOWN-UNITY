@@ -6,41 +6,16 @@ using Cinemachine;
 public class SceneShakeController : MonoBehaviour
 {
     public static SceneShakeController Instance {  get; private set; }
-    private CinemachineVirtualCamera _camera;
-    private float shakeTimer;
+    [SerializeField] private Animator animator;
 
     private void Awake()
     {
-        GameObject.DontDestroyOnLoad(this.gameObject);
-
-        if (Instance != null) { Destroy(this.gameObject); }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            Instance = this;
-            _camera = GetComponent<CinemachineVirtualCamera>();
-
-        }
+        Instance = this;
+        animator = GetComponent<Animator>();
     }
 
-    public void ShakeCamera(float intensity, float time)
+    public void ShakeCamera()
     {
-        CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = 
-            _camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-
-        cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
-        shakeTimer = time;
-    }
-
-    private void Update()
-    {
-        if (shakeTimer > 0)
-        {
-            shakeTimer -= Time.deltaTime;
-            CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin =
-            _camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-
-            cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = 0f;
-        }
+        animator.SetTrigger("Shake");
     }
 }

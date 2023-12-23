@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,16 +8,19 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStatusController : MonoBehaviour
 {
-    [Header("Player Max Status")]
+    [Header("Player Default Status")]
     [SerializeField] public float playerMaxHealth = 200f;
     [SerializeField] public float playerMaxMana = 200f;
     [SerializeField] public float playerMaxEnergy = 100f;
     [SerializeField] public float playerMaxDefend = 5f;
     [SerializeField] public float playerMaxSpeed = 5f;
+    [SerializeField] public float playerMaxAttackSpeed = 1f;
     [SerializeField] public float playerMaxAttack = 50f;
     [SerializeField] public float playerMaxSpAttack = 5f;
+    [SerializeField] public float playerMaxCritRate = 0.2f;
+    [SerializeField] public float playerMaxCritDamage = 0.5f;
 
-    [Header("Player Default Status")]
+    [Header("Player Current Status")]
     [SerializeField] public float playerCurrentHealth;
     [SerializeField] public float playerCurrentMana;
     [SerializeField] public float playerCurrentEnergy;
@@ -25,6 +29,8 @@ public class PlayerStatusController : MonoBehaviour
     [SerializeField] public float playerCurrentAttack;
     [SerializeField] public float playerCurrentSpAttack;
     [SerializeField] public float playerCurrentAttackSpeed = 0.5f;
+    [SerializeField] public float playerCurrentCritRate = 0.2f;
+    [SerializeField] public float playerCurrentCritDamage = 0.5f;
 
     [Header("Current status")]
     [SerializeField] public float currentHealth;
@@ -47,8 +53,11 @@ public class PlayerStatusController : MonoBehaviour
     [SerializeField] public float manaPlus = 0f;
     [SerializeField] public float defendPlus = 0f;
     [SerializeField] public float agilityPlus = 0f;
+    [SerializeField] public float attackSpeedPlus = 0f;
     [SerializeField] public float spAttackPlus = 0f;
     [SerializeField] public float energyPlus = 0f;
+    [SerializeField] public double critRatePlus = 0f;
+    [SerializeField] public double critDamagePlus = 0f;
 
     [Header("Player Level")]
     [SerializeField] public int playerLevel = 1;
@@ -66,25 +75,17 @@ public class PlayerStatusController : MonoBehaviour
 
     public void Awake()
     {
-        GameObject.DontDestroyOnLoad(this.gameObject);
+        playerInstance = this;
+        attackBar.SetMaxAttackPoint(maxPoint);
+        defendBar.SetMaxDefendPoint(maxPoint);
+        hpBar.SetMaxHPPoint(maxPoint);
+        agilityBar.SetMaxAgilityPoint(maxPoint);
+        spAttackBar.SetMaxSpAttackPoint(maxPoint);
 
-        if (playerInstance != null) { Destroy(this.gameObject); }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            playerInstance = this;
-            attackBar.SetMaxAttackPoint(maxPoint);
-            defendBar.SetMaxDefendPoint(maxPoint);
-            hpBar.SetMaxHPPoint(maxPoint);
-            agilityBar.SetMaxAgilityPoint(maxPoint);
-            spAttackBar.SetMaxSpAttackPoint(maxPoint);
-
-            Calculate();
-            currentHealth = playerCurrentHealth;
-            currentMana = playerCurrentMana;
-            currentEnergy = playerCurrentEnergy;
-        }
-        
+        Calculate();
+        currentHealth = playerCurrentHealth;
+        currentMana = playerCurrentMana;
+        currentEnergy = playerCurrentEnergy;
     }
 
     private void Update()
@@ -109,6 +110,8 @@ public class PlayerStatusController : MonoBehaviour
             {
                 currentAttackPoint++;
                 attackPlus += 5;
+                critRatePlus += 0.001;
+                critDamagePlus += 0.01;
                 attackBar.SetAttackPoint(currentAttackPoint);
             }
             else if (state == 1)    // Upgrade defend
@@ -127,6 +130,7 @@ public class PlayerStatusController : MonoBehaviour
             {
                 currentAgilityPoint++;
                 agilityPlus += 0.1f;
+                attackSpeedPlus -= 0.01f;
                 energyPlus += 5;
                 agilityBar.SetAgilityPoint(currentAgilityPoint);
             }
@@ -150,7 +154,10 @@ public class PlayerStatusController : MonoBehaviour
         playerCurrentEnergy = playerMaxEnergy + energyPlus;
         playerCurrentDefend = playerMaxDefend + defendPlus;
         playerCurrentSpeed = playerMaxSpeed + agilityPlus;
+        playerCurrentAttackSpeed = playerMaxAttackSpeed + attackSpeedPlus;
         playerCurrentSpAttack = playerMaxSpAttack + spAttackPlus;
+        playerCurrentCritRate = (float)playerMaxCritRate + (float)critRatePlus;
+        playerCurrentCritDamage = (float)playerMaxCritDamage + (float)critDamagePlus;
     }
 
     void LevelController()
